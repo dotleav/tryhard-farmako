@@ -21,11 +21,19 @@ type AnswerState = number | 'skipped' | null
 type QuizMode = 'biasa' | 'tentamen'
 type AppState = 'setup' | 'running' | 'finished'
 type QuestionPhase = 'answering' | 'answered_manual' | 'answered_timeout'
+type TentamenDifficulty = 'cheetah' | 'normal' | 'folivora' | 'bekicot'
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E']
-const EXAM_TIMER = 30
+const EXAM_TIMER = 30 // default fallback
+
+const DIFFICULTY_CONFIG: Record<TentamenDifficulty, { label: string; emoji: string; timerSeconds: number; desc: string; color: string }> = {
+  cheetah:  { label: 'Cheetah',      emoji: '🐆', timerSeconds: 30,           desc: 'am fast boi',                        color: '#f59e0b' },
+  normal:   { label: 'Orang Normal', emoji: '🧍', timerSeconds: 60,           desc: 'dasar normies',                      color: '#58a6ff' },
+  folivora: { label: 'Folivora',     emoji: '🦥', timerSeconds: 300,          desc: 'pasti pas ditanya jawabannya "hah?"', color: '#86efac' },
+  bekicot:  { label: 'Bekicot',      emoji: '🐌', timerSeconds: 0,            desc: 'mode biasa aja kalau gitu',          color: '#c084fc' },
+}
 
 const CATEGORY_COLORS: Record<string, string> = {
   'Ekstraksi Obat':                       'bg-blue-500/20 text-blue-300 border-blue-500/30',
@@ -79,6 +87,9 @@ export default function Quiz() {
   const [questions, setQuestions] = useState<Question[]>([])
   const [quizMode, setQuizMode]   = useState<QuizMode>('biasa')
 
+  // Header hide state
+  const [headerHidden, setHeaderHidden] = useState(false)
+
   // Mode Biasa state — loaded from localStorage on mount
   const [biasaActive, setBiasaActive]             = useState(false) // true = running biasa
   const [biasaCategory, setBiasaCategory]         = useState('Semua')
@@ -93,6 +104,7 @@ export default function Quiz() {
   const [tentamenQuestions, setTentamenQuestions] = useState<Question[]>([])
   const [tentamenAnswers, setTentamenAnswers]     = useState<AnswerState[]>([])
   const [currentIdx, setCurrentIdx]               = useState(0)
+  const [tentamenDifficulty, setTentamenDifficulty] = useState<TentamenDifficulty>('normal')
   const [timeLeft, setTimeLeft]                   = useState(EXAM_TIMER)
   const [qPhase, setQPhase]                       = useState<QuestionPhase>('answering')
 
@@ -194,6 +206,8 @@ export default function Quiz() {
   // ── Tentamen: timer countdown ──
   useEffect(() => {
     if (quizMode !== 'tentamen' || tentamenState !== 'running' || qPhase !== 'answering') return
+    // Bekicot = no timer
+    if (tentamenDifficulty === 'bekicot') return
     if (timeLeft === 0) {
       setTentamenAnswers(prev => { const n = [...prev]; n[currentIdx] = 'skipped'; return n })
       setQPhase('answered_timeout')
@@ -201,7 +215,7 @@ export default function Quiz() {
     }
     const t = setTimeout(() => setTimeLeft(p => p - 1), 1000)
     return () => clearTimeout(t)
-  }, [quizMode, tentamenState, qPhase, timeLeft, currentIdx])
+  }, [quizMode, tentamenState, qPhase, timeLeft, currentIdx, tentamenDifficulty])
 
   // ── Tentamen: auto-advance on timeout ──
   useEffect(() => {
@@ -270,13 +284,14 @@ export default function Quiz() {
   }, [biasaQuestions, playSound])
 
   // ── Mode Tentamen handlers ──
-  const handleStartTentamen = useCallback(() => {
+  const handleStartTentamen = useCallback((difficulty: TentamenDifficulty) => {
     const qs = buildQuestions(tentamenCategory, tentamenShuffleOn, questions)
     if (!qs.length) return
+    setTentamenDifficulty(difficulty)
     setTentamenQuestions(qs)
     setTentamenAnswers(new Array(qs.length).fill(null))
     setCurrentIdx(0)
-    setTimeLeft(EXAM_TIMER)
+    setTimeLeft(DIFFICULTY_CONFIG[difficulty].timerSeconds)
     setQPhase('answering')
     setTentamenState('running')
   }, [buildQuestions, tentamenCategory, tentamenShuffleOn, questions])
@@ -307,10 +322,10 @@ export default function Quiz() {
       setTentamenState('finished')
     } else {
       setCurrentIdx(p => p + 1)
-      setTimeLeft(EXAM_TIMER)
+      setTimeLeft(DIFFICULTY_CONFIG[tentamenDifficulty].timerSeconds)
       setQPhase('answering')
     }
-  }, [currentIdx, tentamenQuestions.length])
+  }, [currentIdx, tentamenQuestions.length, tentamenDifficulty])
 
   // ── Switch mode ──
   const handleModeChange = (mode: QuizMode) => {
@@ -336,79 +351,126 @@ export default function Quiz() {
       {/* ═══ Sticky header + mode bar ═══ */}
       <div style={{ position: 'sticky', top: 0, zIndex: 50 }}>
 
-        {/* Header */}
-        <header style={{ backgroundColor: '#161b22', borderBottom: '1px solid #21262d', padding: '12px 0' }}>
-          <div className="max-w-3xl mx-auto px-4 flex items-center justify-between">
-            <div>
-              <h1 style={{
-                fontFamily: '"DM Serif Display", Georgia, serif',
-                color: '#e8a838',
-                fontSize: 'clamp(1.3rem, 4vw, 1.6rem)',
-                fontWeight: 700,
-                lineHeight: 1.2,
-                margin: 0,
+        {/* Header — collapsible */}
+        <div style={{
+          overflow: 'hidden',
+          maxHeight: headerHidden ? '0px' : '120px',
+          transition: 'max-height 0.35s cubic-bezier(0.4,0,0.2,1)',
+        }}>
+          <header style={{ backgroundColor: '#161b22', borderBottom: '1px solid #21262d', padding: '12px 0' }}>
+            <div className="max-w-3xl mx-auto px-4">
+              {/* Dotleav note */}
+              <div style={{
+                backgroundColor: '#e8a83810',
+                border: '1px solid #e8a83830',
+                borderRadius: '8px',
+                padding: '7px 12px',
+                marginBottom: '10px',
+                fontSize: '0.7rem',
+                color: '#8b949e',
+                lineHeight: 1.5,
               }}>
-                Latihan Soal Farmako 2G
-              </h1>
-              <p style={{ color: '#6e7681', fontSize: '0.72rem', marginTop: '2px' }}>
-                Disclaimer: Soal dbuat mggnkn AI, mhn jgn mmpercayai penjelasan jwbn sepenuhnya
-              </p>
-            </div>
+                🗿 <span style={{ color: '#e8a83899', fontWeight: 600 }}>Dotleav's note*:</span>{' '}
+                Latihan soal ini dibuat berdasarkan OV, Buku blok, gambar dari google dan praktikum serta mimpi dan harapan untuk masa depan yang kelam. Soal bertujuan untuk dijadikan alat latihan dan tidak menjamin responsi akan sama persis.
+              </div>
+              <div className="flex items-center justify-between">
+                <div>
+                  <h1 style={{
+                    fontFamily: '"DM Serif Display", Georgia, serif',
+                    color: '#e8a838',
+                    fontSize: 'clamp(1.3rem, 4vw, 1.6rem)',
+                    fontWeight: 700,
+                    lineHeight: 1.2,
+                    margin: 0,
+                  }}>
+                    Latihan Soal PA
+                  </h1>
+                </div>
 
-            {/* Right side: tracker + mute */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              {quizMode === 'biasa' && biasaActive && (
-                <div style={{ textAlign: 'right', minWidth: '70px' }}>
-                  <div style={{
-                    fontFamily: '"JetBrains Mono", monospace',
-                    color: '#e8a838',
-                    fontSize: '0.9rem',
-                    fontWeight: 700,
-                  }}>
-                    {biasaAnsweredCount}/{biasaQuestions.length}
-                  </div>
-                  <div style={{ color: '#6e7681', fontSize: '0.65rem', lineHeight: 1.3 }}>
-                    dijawab · benar <span style={{ color: '#4ade80' }}>{biasaCorrectCount}</span>
-                  </div>
+                {/* Right side: tracker + mute */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  {quizMode === 'biasa' && biasaActive && (
+                    <div style={{ textAlign: 'right', minWidth: '70px' }}>
+                      <div style={{
+                        fontFamily: '"JetBrains Mono", monospace',
+                        color: '#e8a838',
+                        fontSize: '0.9rem',
+                        fontWeight: 700,
+                      }}>
+                        {biasaAnsweredCount}/{biasaQuestions.length}
+                      </div>
+                      <div style={{ color: '#6e7681', fontSize: '0.65rem', lineHeight: 1.3 }}>
+                        dijawab · benar <span style={{ color: '#4ade80' }}>{biasaCorrectCount}</span>
+                      </div>
+                    </div>
+                  )}
+                  {quizMode === 'tentamen' && tentamenState === 'running' && (
+                    <div style={{ textAlign: 'right' }}>
+                      <div style={{
+                        fontFamily: '"JetBrains Mono", monospace',
+                        color: '#e8a838',
+                        fontSize: '0.9rem',
+                        fontWeight: 700,
+                      }}>
+                        {currentIdx + 1}/{tentamenQuestions.length}
+                      </div>
+                      <div style={{ color: '#6e7681', fontSize: '0.65rem' }}>soal</div>
+                    </div>
+                  )}
+                  <button
+                    onClick={() => setIsMuted(m => !m)}
+                    title={isMuted ? 'Nyalakan suara' : 'Matikan suara'}
+                    style={{
+                      background: 'none',
+                      border: '1px solid #30363d',
+                      borderRadius: '6px',
+                      padding: '5px 8px',
+                      cursor: 'pointer',
+                      color: isMuted ? '#6e7681' : '#e8a838',
+                      fontSize: '1rem',
+                      lineHeight: 1,
+                      flexShrink: 0,
+                    }}
+                  >
+                    {isMuted ? '🔇' : '🔊'}
+                  </button>
                 </div>
-              )}
-              {quizMode === 'tentamen' && tentamenState === 'running' && (
-                <div style={{ textAlign: 'right' }}>
-                  <div style={{
-                    fontFamily: '"JetBrains Mono", monospace',
-                    color: '#e8a838',
-                    fontSize: '0.9rem',
-                    fontWeight: 700,
-                  }}>
-                    {currentIdx + 1}/{tentamenQuestions.length}
-                  </div>
-                  <div style={{ color: '#6e7681', fontSize: '0.65rem' }}>soal</div>
-                </div>
-              )}
-              <button
-                onClick={() => setIsMuted(m => !m)}
-                title={isMuted ? 'Nyalakan suara' : 'Matikan suara'}
-                style={{
-                  background: 'none',
-                  border: '1px solid #30363d',
-                  borderRadius: '6px',
-                  padding: '5px 8px',
-                  cursor: 'pointer',
-                  color: isMuted ? '#6e7681' : '#e8a838',
-                  fontSize: '1rem',
-                  lineHeight: 1,
-                  flexShrink: 0,
-                }}
-              >
-                {isMuted ? '🔇' : '🔊'}
-              </button>
+              </div>
             </div>
-          </div>
-        </header>
+          </header>
+        </div>
 
         {/* Mode bar */}
         <div style={{ backgroundColor: '#161b22', borderBottom: '1px solid #30363d', padding: '8px 0' }}>
           <div className="max-w-3xl mx-auto px-4 flex items-center gap-2">
+            {/* Hide header toggle — placed first/leftmost, before mode buttons */}
+            <button
+              onClick={() => setHeaderHidden(h => !h)}
+              title={headerHidden ? 'Tampilkan header' : 'Sembunyikan header'}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '4px',
+                fontSize: '0.72rem',
+                color: headerHidden ? '#e8a838' : '#6e7681',
+                background: 'none',
+                border: `1px solid ${headerHidden ? '#e8a83860' : '#30363d'}`,
+                cursor: 'pointer',
+                padding: '4px 9px',
+                borderRadius: '999px',
+                transition: 'all 0.2s',
+                flexShrink: 0,
+              }}
+            >
+              <span style={{
+                display: 'inline-block',
+                transition: 'transform 0.3s',
+                transform: headerHidden ? 'rotate(180deg)' : 'rotate(0deg)',
+                fontSize: '0.8rem',
+              }}>▲</span>
+              {headerHidden ? 'Tampilkan' : 'Sembunyikan'}
+            </button>
+
             {(['biasa', 'tentamen'] as const).map(m => (
               <button
                 key={m}
@@ -584,8 +646,9 @@ export default function Quiz() {
 
         {/* ── Mode Tentamen ── */}
         {quizMode === 'tentamen' && tentamenState === 'setup' && (
-          <SetupCard questionCount={tentamenQCount} onStart={handleStartTentamen} />
+          <SetupCard questionCount={tentamenQCount} onStart={handleStartTentamen} difficulty={tentamenDifficulty} onDifficultyChange={setTentamenDifficulty} />
         )}
+
 
         {quizMode === 'tentamen' && tentamenState === 'running' && tentamenQuestions[currentIdx] && (
           <TentamenMode
@@ -597,6 +660,7 @@ export default function Quiz() {
             answer={tentamenAnswers[currentIdx]}
             onAnswer={handleAnswerTentamen}
             onNext={goNext}
+            difficulty={tentamenDifficulty}
           />
         )}
 
@@ -614,11 +678,21 @@ export default function Quiz() {
 
 // ── SetupCard (Tentamen only) ──────────────────────────────────────────────────
 
-function SetupCard({ questionCount, onStart }: {
+function SetupCard({ questionCount, onStart, difficulty, onDifficultyChange }: {
   questionCount: number
-  onStart: () => void
+  onStart: (difficulty: TentamenDifficulty) => void
+  difficulty: TentamenDifficulty
+  onDifficultyChange: (d: TentamenDifficulty) => void
 }) {
-  const est = `${Math.ceil(questionCount * EXAM_TIMER / 60)} menit`
+  const cfg = DIFFICULTY_CONFIG[difficulty]
+  const timerSec = cfg.timerSeconds
+  const estLabel = (() => {
+    if (timerSec === 0) return '∞'
+    const totalSec = questionCount * timerSec
+    if (totalSec < 60) return `${totalSec} dtk`
+    return `${Math.ceil(totalSec / 60)} menit`
+  })()
+  const timerLabel = timerSec === 0 ? '∞' : `${timerSec}s`
 
   return (
     <div className="quiz-fade-in">
@@ -639,14 +713,14 @@ function SetupCard({ questionCount, onStart }: {
               Mode Tentamen
             </h2>
             <p style={{ color: '#8b949e', fontSize: '0.8rem', marginTop: '4px' }}>
-              Simulasi ujian dengan timer 30 detik per soal
+              Simulasi ujian dengan timer per soal. Pilih tingkat kesulitan di bawah.
             </p>
           </div>
         </div>
 
         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
           {[
-            'Satu soal per layar dengan timer 30 detik',
+            'Satu soal per layar dengan timer sesuai difficulty',
             'Waktu habis → otomatis lanjut ke soal berikutnya',
             'Setelah menjawab: lihat jawaban benar + penjelasan',
             'Hasil lengkap di akhir: skor, benar, salah, terlewati',
@@ -659,12 +733,61 @@ function SetupCard({ questionCount, onStart }: {
         </ul>
       </div>
 
+      {/* Difficulty selector */}
+      <div style={{ marginBottom: '16px' }}>
+        <div style={{ fontSize: '0.72rem', color: '#6e7681', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+          Tingkat Kesulitan
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
+          {(Object.keys(DIFFICULTY_CONFIG) as TentamenDifficulty[]).map(d => {
+            const dcfg = DIFFICULTY_CONFIG[d]
+            const isActive = difficulty === d
+            return (
+              <button
+                key={d}
+                onClick={() => onDifficultyChange(d)}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  gap: '4px',
+                  padding: '12px 14px',
+                  borderRadius: '12px',
+                  border: isActive ? `1.5px solid ${dcfg.color}` : '1px solid #30363d',
+                  backgroundColor: isActive ? `${dcfg.color}14` : '#161b22',
+                  cursor: 'pointer',
+                  transition: 'all 0.18s',
+                  textAlign: 'left',
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ fontSize: '1.15rem', lineHeight: 1 }}>{dcfg.emoji}</span>
+                  <span style={{ color: isActive ? dcfg.color : '#c9d1d9', fontWeight: 700, fontSize: '0.85rem' }}>
+                    {dcfg.label}
+                  </span>
+                </div>
+                <div style={{ fontSize: '0.7rem', color: '#6e7681', lineHeight: 1.4 }}>{dcfg.desc}</div>
+                <div style={{
+                  fontSize: '0.68rem',
+                  color: isActive ? dcfg.color : '#484f58',
+                  fontFamily: '"JetBrains Mono", monospace',
+                  fontWeight: 600,
+                  marginTop: '2px',
+                }}>
+                  {dcfg.timerSeconds === 0 ? 'no timer' : `${dcfg.timerSeconds}s / soal`}
+                </div>
+              </button>
+            )
+          })}
+        </div>
+      </div>
+
       {/* Stats row */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', marginBottom: '20px' }}>
         {[
           { value: questionCount.toString(), label: 'Soal' },
-          { value: '5', label: 'Pilihan' },
-          { value: est, label: 'Estimasi' },
+          { value: timerLabel, label: 'Timer/soal' },
+          { value: estLabel, label: 'Estimasi' },
         ].map(({ value, label }) => (
           <div key={label} style={{
             backgroundColor: '#161b22',
@@ -681,12 +804,12 @@ function SetupCard({ questionCount, onStart }: {
 
       {/* Start button */}
       <button
-        onClick={onStart}
+        onClick={() => onStart(difficulty)}
         disabled={questionCount === 0}
         style={{
           width: '100%',
           padding: '14px',
-          backgroundColor: '#e8a838',
+          backgroundColor: cfg.color,
           color: '#0d1117',
           fontWeight: 700,
           fontSize: '1rem',
@@ -706,7 +829,7 @@ function SetupCard({ questionCount, onStart }: {
         onMouseUp={e => { (e.currentTarget as HTMLButtonElement).style.transform = 'scale(1)' }}
       >
         <Play style={{ width: '18px', height: '18px' }} />
-        Mulai Tentamen
+        Mulai Tentamen — {cfg.emoji} {cfg.label}
       </button>
     </div>
   )
@@ -811,7 +934,7 @@ function BiasaMode({ questions, answers, onAnswer }: {
 
 // ── TentamenMode ───────────────────────────────────────────────────────────────
 
-function TentamenMode({ question, questionNum, total, timeLeft, phase, answer, onAnswer, onNext }: {
+function TentamenMode({ question, questionNum, total, timeLeft, phase, answer, onAnswer, onNext, difficulty }: {
   question: Question
   questionNum: number
   total: number
@@ -820,12 +943,15 @@ function TentamenMode({ question, questionNum, total, timeLeft, phase, answer, o
   answer: AnswerState
   onAnswer: (optIdx: number) => void
   onNext: () => void
+  difficulty: TentamenDifficulty
 }) {
+  const cfg          = DIFFICULTY_CONFIG[difficulty]
+  const maxTime      = cfg.timerSeconds || 1 // avoid div-by-zero for bekicot
   const isAnswering  = phase === 'answering'
   const isManual     = phase === 'answered_manual'
   const isTimeout    = phase === 'answered_timeout'
-  const isUrgent     = timeLeft <= 10 && isAnswering
-  const timerPct     = (timeLeft / EXAM_TIMER) * 100
+  const isUrgent     = timeLeft <= 10 && isAnswering && difficulty !== 'bekicot'
+  const timerPct     = difficulty === 'bekicot' ? 100 : (timeLeft / maxTime) * 100
 
   return (
     <div className="quiz-fade-in">
@@ -870,7 +996,9 @@ function TentamenMode({ question, questionNum, total, timeLeft, phase, answer, o
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
             <Clock style={{ width: '15px', height: '15px', color: isUrgent ? '#ef4444' : '#8b949e' }} />
             <span style={{ fontSize: '0.75rem', color: isUrgent ? '#ef4444' : '#8b949e' }}>
-              {isAnswering ? 'Waktu tersisa' : isTimeout ? 'Waktu habis!' : 'Selesai'}
+              {difficulty === 'bekicot'
+                ? 'No timer 🐌'
+                : isAnswering ? 'Waktu tersisa' : isTimeout ? 'Waktu habis!' : 'Selesai'}
             </span>
           </div>
           <span
@@ -879,12 +1007,12 @@ function TentamenMode({ question, questionNum, total, timeLeft, phase, answer, o
               fontSize: '2.2rem',
               fontWeight: 700,
               lineHeight: 1,
-              color: isUrgent ? '#ef4444' : '#e8a838',
+              color: isUrgent ? '#ef4444' : cfg.color,
               transition: 'color 0.3s',
             }}
             className={isUrgent ? 'timer-pulse' : ''}
           >
-            {String(isAnswering ? timeLeft : isTimeout ? 0 : timeLeft).padStart(2, '0')}
+            {difficulty === 'bekicot' ? '∞' : String(isAnswering ? timeLeft : isTimeout ? 0 : timeLeft).padStart(2, '0')}
           </span>
         </div>
 
@@ -893,8 +1021,8 @@ function TentamenMode({ question, questionNum, total, timeLeft, phase, answer, o
           <div style={{
             height: '100%',
             borderRadius: '999px',
-            backgroundColor: isUrgent ? '#ef4444' : '#e8a838',
-            width: isAnswering ? `${timerPct}%` : isTimeout ? '0%' : '100%',
+            backgroundColor: isUrgent ? '#ef4444' : cfg.color,
+            width: difficulty === 'bekicot' ? '100%' : isAnswering ? `${timerPct}%` : isTimeout ? '0%' : '100%',
             transition: isAnswering ? 'width 1s linear, background-color 0.3s' : 'width 0.3s ease, background-color 0.3s',
           }} />
         </div>
