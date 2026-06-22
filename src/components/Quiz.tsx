@@ -696,49 +696,12 @@ function SetupCard({ questionCount, onStart, difficulty, onDifficultyChange }: {
 
   return (
     <div className="quiz-fade-in">
-      {/* Mode info card */}
-      <div style={{ backgroundColor: '#161b22', border: '1px solid #30363d', borderRadius: '16px', padding: '24px', marginBottom: '16px' }}>
-        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '14px', marginBottom: '20px' }}>
-          <div style={{
-            backgroundColor: '#e8a83818',
-            border: '1px solid #e8a83835',
-            borderRadius: '10px',
-            padding: '10px',
-            flexShrink: 0,
-          }}>
-            <Timer style={{ width: '22px', height: '22px', color: '#e8a838' }} />
-          </div>
-          <div>
-            <h2 style={{ color: '#f0f6fc', fontSize: '1.1rem', fontWeight: 700, margin: 0 }}>
-              Mode Tentamen
-            </h2>
-            <p style={{ color: '#8b949e', fontSize: '0.8rem', marginTop: '4px' }}>
-              Simulasi ujian dengan timer per soal. Pilih tingkat kesulitan di bawah.
-            </p>
-          </div>
-        </div>
-
-        <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
-          {[
-            'Satu soal per layar dengan timer sesuai difficulty',
-            'Waktu habis → otomatis lanjut ke soal berikutnya',
-            'Setelah menjawab: lihat jawaban benar + penjelasan',
-            'Hasil lengkap di akhir: skor, benar, salah, terlewati',
-          ].map((item, i) => (
-            <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '0.82rem', color: '#c9d1d9' }}>
-              <Zap style={{ width: '14px', height: '14px', color: '#e8a838', flexShrink: 0, marginTop: '1px' }} />
-              {item}
-            </li>
-          ))}
-        </ul>
-      </div>
-
       {/* Difficulty selector */}
       <div style={{ marginBottom: '16px' }}>
-        <div style={{ fontSize: '0.72rem', color: '#6e7681', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+        <div style={{ fontSize: '0.72rem', color: '#6e7681', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '0.07em' }}>
           Tingkat Kesulitan
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px' }}>
           {(Object.keys(DIFFICULTY_CONFIG) as TentamenDifficulty[]).map(d => {
             const dcfg = DIFFICULTY_CONFIG[d]
             const isActive = difficulty === d
@@ -750,29 +713,29 @@ function SetupCard({ questionCount, onStart, difficulty, onDifficultyChange }: {
                   display: 'flex',
                   flexDirection: 'column',
                   alignItems: 'flex-start',
-                  gap: '4px',
-                  padding: '12px 14px',
-                  borderRadius: '12px',
-                  border: isActive ? `1.5px solid ${dcfg.color}` : '1px solid #30363d',
-                  backgroundColor: isActive ? `${dcfg.color}14` : '#161b22',
+                  gap: '8px',
+                  padding: '18px 16px',
+                  borderRadius: '14px',
+                  border: isActive ? `2px solid ${dcfg.color}` : '1px solid #30363d',
+                  backgroundColor: isActive ? `${dcfg.color}18` : '#161b22',
                   cursor: 'pointer',
                   transition: 'all 0.18s',
                   textAlign: 'left',
+                  minHeight: '110px',
                 }}
               >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <span style={{ fontSize: '1.15rem', lineHeight: 1 }}>{dcfg.emoji}</span>
-                  <span style={{ color: isActive ? dcfg.color : '#c9d1d9', fontWeight: 700, fontSize: '0.85rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ fontSize: '1.5rem', lineHeight: 1 }}>{dcfg.emoji}</span>
+                  <span style={{ color: isActive ? dcfg.color : '#e6edf3', fontWeight: 700, fontSize: '1rem' }}>
                     {dcfg.label}
                   </span>
                 </div>
-                <div style={{ fontSize: '0.7rem', color: '#6e7681', lineHeight: 1.4 }}>{dcfg.desc}</div>
+                <div style={{ fontSize: '0.82rem', color: isActive ? '#c9d1d9' : '#8b949e', lineHeight: 1.4 }}>{dcfg.desc}</div>
                 <div style={{
-                  fontSize: '0.68rem',
+                  fontSize: '0.75rem',
                   color: isActive ? dcfg.color : '#484f58',
                   fontFamily: '"JetBrains Mono", monospace',
-                  fontWeight: 600,
-                  marginTop: '2px',
+                  fontWeight: 700,
                 }}>
                   {dcfg.timerSeconds === 0 ? 'no timer' : `${dcfg.timerSeconds}s / soal`}
                 </div>
