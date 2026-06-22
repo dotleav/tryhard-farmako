@@ -1,0 +1,1892 @@
+[
+  {
+    "id": "E1",
+    "question": "Apa yang dimaksud dengan herbal?",
+    "options": [
+      "Obat kimia sintetis yang berasal dari tanaman",
+      "Semua tanaman yang dapat dimakan manusia",
+      "Tanaman yang mengandung bahan atau zat aktif yang berguna untuk pengobatan",
+      "Sediaan farmasi yang telah melalui uji klinik",
+      "Tanaman yang hanya digunakan untuk perawatan kecantikan"
+    ],
+    "correct": 2,
+    "explanation": "Herbal adalah tanaman yang mempunyai kegunaan atau nilai lebih dalam pengobatan karena mengandung bahan atau zat aktif yang berguna untuk pengobatan. Herbal kadang-kadang disebut juga sebagai tanaman obat.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E2",
+    "question": "Penggolongan obat herbal berdasarkan tingkat uji klinis yang telah dilalui, urutan dari yang paling rendah ke tinggi adalah...",
+    "options": [
+      "Jamu → Fitofarmaka → Obat Herbal Terstandar",
+      "Obat Herbal Terstandar → Jamu → Fitofarmaka",
+      "Jamu → Obat Herbal Terstandar → Fitofarmaka",
+      "Fitofarmaka → Jamu → Obat Herbal Terstandar",
+      "Fitofarmaka → Obat Herbal Terstandar → Jamu"
+    ],
+    "correct": 2,
+    "explanation": "Penggolongan berdasarkan tingkat uji: Jamu (empirical based) hanya berdasarkan pengalaman empiris, OHT (scientific based) sudah uji praklinik pada hewan, dan Fitofarmaka (clinical based) sudah melalui uji praklinik dan uji klinik pada manusia.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E3",
+    "question": "Manakah pernyataan yang tepat mengenai Jamu?",
+    "options": [
+      "Telah melalui uji praklinik pada hewan percobaan",
+      "Khasiatnya hanya dibuktikan berdasarkan data empiris atau pengalaman turun-temurun",
+      "Dapat diklaim mengobati hipertensi secara langsung",
+      "Bahan bakunya wajib distandardisasi",
+      "Telah melalui uji klinik pada manusia"
+    ],
+    "correct": 1,
+    "explanation": "Jamu adalah empirical based herbal medicine — khasiatnya dibuktikan berdasarkan data empiris atau secara turun-temurun. Klaim penggunaan harus diawali dengan kata 'Secara tradisional digunakan untuk...' dan tidak boleh menggunakan istilah farmakologi seperti 'untuk hipertensi'.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E4",
+    "question": "Apa perbedaan utama Obat Herbal Terstandar (OHT) dengan Fitofarmaka?",
+    "options": [
+      "OHT tidak perlu standarisasi bahan baku, Fitofarmaka wajib",
+      "OHT sudah uji klinik manusia, Fitofarmaka hanya uji praklinik",
+      "OHT hanya uji praklinik (hewan), Fitofarmaka uji praklinik + uji klinik (manusia)",
+      "OHT bisa diresepkan dokter, Fitofarmaka tidak bisa",
+      "OHT berasal dari hewan, Fitofarmaka dari tanaman"
+    ],
+    "correct": 2,
+    "explanation": "OHT (scientific based) telah melalui uji praklinik pada hewan percobaan. Fitofarmaka (clinical based) telah melalui uji praklinik pada hewan DAN uji klinik pada manusia, sehingga Fitofarmaka dapat diresepkan dokter.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E5",
+    "question": "Dalam memeriksa keamanan obat herbal yang beredar, masyarakat perlu melakukan KLIK. Apa yang dimaksud KLIK?",
+    "options": [
+      "Kemasan, Label, Izin edar, dan Kadaluwarsa",
+      "Kemasan, Lisensi, Indikasi, dan Kadaluwarsa",
+      "Kontrol, Label, Izin, dan Keamanan",
+      "Kualitas, Label, Identifikasi, dan Keamanan",
+      "Kadar, Legalitas, Izin, dan Komposisi"
+    ],
+    "correct": 0,
+    "explanation": "KLIK adalah singkatan dari Kemasan, Label, Izin edar, dan Kadaluwarsa — empat hal yang harus dicek pada obat herbal untuk memastikan keamanannya.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E6",
+    "question": "Apa definisi simplisia?",
+    "options": [
+      "Sediaan obat herbal yang sudah melalui uji standarisasi resmi",
+      "Bahan alamiah yang digunakan sebagai obat, belum mengalami pengolahan apapun atau hanya diolah secara sederhana (umumnya dikeringkan)",
+      "Tanaman segar yang langsung digunakan tanpa pengeringan",
+      "Bahan kimia murni yang diisolasi dari tanaman",
+      "Ekstrak pekat dari tanaman yang telah dimurnikan dari semua zat pengotor"
+    ],
+    "correct": 1,
+    "explanation": "Simplisia adalah bahan alamiah yang dipergunakan sebagai obat yang belum mengalami pengolahan apapun dan kecuali dinyatakan lain simplisia merupakan bahan yang dikeringkan.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E7",
+    "question": "Manakah yang termasuk simplisia nabati?",
+    "options": [
+      "Hewan utuh atau bagian hewan",
+      "Madu dan propolis",
+      "Tanaman utuh, bagian tanaman, atau eksudat tanaman",
+      "Belerang dan kapur sirih",
+      "Mineral yang belum diolah"
+    ],
+    "correct": 2,
+    "explanation": "Simplisia nabati adalah simplisia yang berupa tanaman utuh, bagian tanaman atau eksudat tanaman. Eksudat tanaman adalah isi sel yang secara spontan keluar dari tanaman atau dipisahkan dari tanamannya.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E8",
+    "question": "Manakah yang merupakan contoh simplisia hewani?",
+    "options": [
+      "Daun sambiloto",
+      "Madu",
+      "Belerang",
+      "Kapur sirih",
+      "Rimpang jahe"
+    ],
+    "correct": 1,
+    "explanation": "Simplisia hewani adalah simplisia berupa hewan utuh, bagian hewan, atau zat berguna dari hewan yang belum berupa zat kimia murni. Madu adalah contoh simplisia hewani. Belerang dan kapur sirih adalah simplisia mineral/pelikan.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E9",
+    "question": "Berapa kadar air yang disyaratkan pada simplisia kering?",
+    "options": [
+      "< 25%",
+      "< 20%",
+      "< 5%",
+      "< 10%",
+      "< 15%"
+    ],
+    "correct": 3,
+    "explanation": "Tujuan pengeringan simplisia adalah agar simplisia awet dan dapat digunakan dalam jangka waktu yang lama dengan kadar air < 10%.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E10",
+    "question": "Apa tujuan sortasi basah pada proses pembuatan simplisia?",
+    "options": [
+      "Mencegah penurunan mutu selama penyimpanan",
+      "Mengubah bentuk simplisia dengan perajangan atau pemotongan",
+      "Memisahkan simplisia berdasarkan ukuran partikel setelah dikeringkan",
+      "Membersihkan bahan dari benda asing seperti tanah, kerikil, rumput, dan bahan yang rusak",
+      "Menghilangkan sisa air setelah pencucian"
+    ],
+    "correct": 3,
+    "explanation": "Sortasi basah bertujuan untuk membersihkan bahan dari benda-benda asing seperti tanah, kerikil, rumput, bagian tanaman lain, dan bahan yang rusak sebelum dicuci.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E11",
+    "question": "Urutan prinsip pembuatan simplisia yang benar adalah...",
+    "options": [
+      "Sortasi basah → Pengumpulan → Pencucian → Pengeringan → Pengepakan",
+      "Pengumpulan → Pencucian → Sortasi basah → Pengeringan → Sortasi kering → Pengepakan",
+      "Pengumpulan → Sortasi basah → Pencucian → Penirisan → Pengubahan bentuk → Pengeringan → Sortasi kering → Pengepakan",
+      "Pengumpulan → Pengeringan → Pencucian → Sortasi → Pengepakan",
+      "Pencucian → Sortasi basah → Pengumpulan → Pengeringan → Pengepakan"
+    ],
+    "correct": 2,
+    "explanation": "Urutan pembuatan simplisia: Pengumpulan bahan → Sortasi basah (bersihkan benda asing) → Pencucian → Penirisan (buang sisa air) → Pengubahan bentuk (rajang, potong) → Pengeringan → Sortasi kering → Pengepakan dan penyimpanan.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E12",
+    "question": "Tiga paradigma simplisia sebagai produk kefarmasian adalah...",
+    "options": [
+      "Identity – Purity – Potency",
+      "Quality – Safety – Efficacy (mutu – aman – manfaat)",
+      "Efficacy – Economy – Ecology",
+      "Safety – Stability – Sterility",
+      "Purity – Potency – Safety"
+    ],
+    "correct": 1,
+    "explanation": "Simplisia diupayakan memenuhi 3 paradigma produk kefarmasian: Quality (mutu), Safety (aman), dan Efficacy (manfaat).",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E13",
+    "question": "Apa perbedaan antara akar, rimpang (rhizoma), dan umbi?",
+    "options": [
+      "Tidak ada perbedaan, ketiganya istilah yang saling menggantikan",
+      "Akar: tumbuh ke dalam tanah untuk menopang dan menyerap nutrisi. Rimpang: modifikasi batang yang menjalar di bawah tanah. Umbi: bagian yang membengkak untuk menyimpan cadangan energi",
+      "Akar dan rimpang sama, keduanya modifikasi batang. Umbi tumbuh ke dalam tanah",
+      "Akar: menyimpan cadangan energi. Rimpang: tumbuh ke atas. Umbi: menjalar di bawah tanah",
+      "Rimpang adalah akar yang membengkak. Umbi adalah modifikasi daun. Akar tumbuh ke atas"
+    ],
+    "correct": 1,
+    "explanation": "Akar tumbuh ke dalam tanah untuk menopang tumbuhan dan menyerap air/nutrisi. Rhizoma/rimpang adalah modifikasi batang yang menjalar di bawah permukaan tanah dan dapat menghasilkan tunas baru. Umbi mengalami pembengkakan untuk menyimpan cadangan energi (karbohidrat).",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E14",
+    "question": "Apa yang dimaksud dengan ekstrak?",
+    "options": [
+      "Simplisia yang telah dihaluskan menjadi serbuk halus",
+      "Campuran simplisia segar tanpa pengolahan apapun",
+      "Air rebusan simplisia yang langsung diminum",
+      "Tablet yang mengandung bahan aktif tanaman",
+      "Sediaan kental yang diperoleh dengan mengekstraksi senyawa aktif dari simplisia menggunakan pelarut, lalu semua atau hampir semua pelarut diuapkan"
+    ],
+    "correct": 4,
+    "explanation": "Ekstrak adalah sediaan kental yang diperoleh dengan mengekstraksi senyawa aktif dari simplisia nabati atau simplisia hewani menggunakan pelarut yang sesuai, kemudian semua atau hampir semua pelarut diuapkan dan massa atau serbuk yang tersisa diperlakukan sedemikian hingga memenuhi baku yang telah ditetapkan.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E15",
+    "question": "Faktor apa saja yang harus diperhatikan dalam pemilihan cairan penyari (pelarut) untuk ekstraksi?",
+    "options": [
+      "Harga, ketersediaan, dan warna pelarut",
+      "Warna, bau, rasa, dan viskositas pelarut",
+      "Selektifitas, kemudahan bekerja, ekonomis, ramah lingkungan, dan keamanan",
+      "Kemampuan membunuh mikroba dan toksisitas",
+      "Titik didih dan titik beku pelarut saja"
+    ],
+    "correct": 2,
+    "explanation": "Faktor pemilihan cairan penyari meliputi: selektifitasnya, kemudahan bekerja dan proses dengan cairan tersebut, ekonomis, ramah lingkungan, dan keamanannya.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E16",
+    "question": "Pelarut mana yang paling sering digunakan dalam maserasi karena dapat melarutkan seluruh golongan metabolit sekunder?",
+    "options": [
+      "Kloroform",
+      "Eter",
+      "n-Heksana",
+      "Air",
+      "Metanol"
+    ],
+    "correct": 4,
+    "explanation": "Secara umum pelarut metanol merupakan pelarut yang banyak digunakan dalam proses isolasi senyawa organik bahan alam karena dapat melarutkan seluruh golongan metabolit sekunder.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E17",
+    "question": "Apa yang dimaksud dengan maserasi?",
+    "options": [
+      "Ekstraksi senyawa menguap menggunakan uap air",
+      "Ekstraksi dengan mengalirkan pelarut melalui serbuk simplisia yang telah dibasahi",
+      "Proses ekstraksi simplisia dengan merendam serbuk simplisia menggunakan pelarut organik dengan pengocokan atau pengadukan pada temperatur kamar",
+      "Ekstraksi menggunakan pelarut pada temperatur titik didihnya dengan pendingin balik",
+      "Maserasi kinetik dengan pengadukan kontinu pada suhu 40-50°C"
+    ],
+    "correct": 2,
+    "explanation": "Maserasi adalah proses pengekstrakan simplisia dengan merendam serbuk simplisia menggunakan pelarut organik dengan beberapa kali pengocokan atau pengadukan pada temperatur kamar. Keunggulannya: terjadi pemecahan dinding dan membran sel akibat perbedaan tekanan sehingga metabolit sekunder terlarut sempurna.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E18",
+    "question": "Bagaimana prinsip kerja maserasi dalam mengekstrak zat aktif dari sel?",
+    "options": [
+      "Getaran ultrasonik merusak struktur sel dan melepaskan zat aktif",
+      "Enzim dalam pelarut mendegradasi dinding sel",
+      "Tekanan tinggi memaksa pelarut masuk ke dalam sel",
+      "Cairan penyari menembus dinding sel dan zat aktif larut, lalu perbedaan konsentrasi mendorong larutan pekat keluar hingga terjadi keseimbangan",
+      "Panas menyebabkan sel pecah dan zat aktif keluar secara masif"
+    ],
+    "correct": 3,
+    "explanation": "Prinsip maserasi: cairan penyari menembus dinding sel → masuk ke rongga sel → zat aktif larut → karena perbedaan konsentrasi (larutan zat aktif di dalam sel lebih pekat dari di luar) → larutan pekat didesak keluar → terjadi keseimbangan konsentrasi.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E19",
+    "question": "Apa yang dimaksud dengan perkolasi dan apa keunggulannya dibanding maserasi?",
+    "options": [
+      "Penyarian dengan mengalirkan pelarut melalui serbuk simplisia; lebih baik karena aliran pelarut baru terus menjaga perbedaan konsentrasi tetap tinggi",
+      "Penyarian dengan merendam simplisia; lebih baik karena suhu tinggi meningkatkan kelarutan",
+      "Penyarian dengan kondensor; lebih baik karena pelarut tidak menguap",
+      "Ekstraksi dengan uap air; lebih baik karena tidak membutuhkan pelarut organik",
+      "Ekstraksi dengan pengadukan kontinu; lebih baik karena waktu lebih singkat"
+    ],
+    "correct": 0,
+    "explanation": "Perkolasi adalah cara penyarian dengan mengalirkan cairan penyari melalui serbuk simplisia yang telah dibasahi. Keunggulan dibanding maserasi: aliran cairan penyari menyebabkan pergantian larutan dengan yang konsentrasinya lebih rendah, sehingga meningkatkan derajat perbedaan konsentrasi.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E20",
+    "question": "Metode ekstraksi mana yang termasuk cara dingin?",
+    "options": [
+      "Maserasi dan Perkolasi",
+      "Destilasi uap dan Maserasi",
+      "Digesti dan Refluks",
+      "Infus dan Dekok",
+      "Refluks dan Soxhlet"
+    ],
+    "correct": 0,
+    "explanation": "Metode ekstraksi cara dingin (tanpa pemanasan signifikan): Maserasi (temperatur kamar) dan Perkolasi (temperatur ruangan). Cara panas meliputi: Refluks, Soxhlet, Digesti, Infus, dan Dekok.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E21",
+    "question": "Apa prinsip metode refluks dalam ekstraksi?",
+    "options": [
+      "Uap air dialirkan melalui simplisia untuk menguapkan senyawa atsiri",
+      "Simplisia diaduk terus-menerus pada suhu 40-50°C",
+      "Simplisia direndam dalam pelarut pada suhu kamar dalam waktu lama",
+      "Pelarut dialirkan secara gravitasi melalui simplisia dari atas ke bawah",
+      "Pelarut volatil dikondensikan oleh kondensor sehingga mengembun dan kembali ke wadah reaksi, menjaga pelarut tetap ada selama proses berlangsung"
+    ],
+    "correct": 4,
+    "explanation": "Prinsip refluks: pelarut volatile dikondensikan dengan kondensor → pelarut yang tadinya dalam bentuk uap mengembun di kondensor → turun kembali ke wadah reaksi → pelarut tetap ada selama reaksi berlangsung. Umumnya dilakukan pengulangan 3-5 kali pada residu pertama.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E22",
+    "question": "Apa perbedaan antara metode Soxhlet dan metode Refluks?",
+    "options": [
+      "Soxhlet dilakukan pada suhu kamar; Refluks dilakukan pada titik didih pelarut",
+      "Soxhlet untuk senyawa tidak mudah menguap; Refluks hanya untuk senyawa polar",
+      "Soxhlet menggunakan pelarut selalu baru dengan alat khusus untuk ekstraksi kontinu; Refluks menggunakan pelarut yang sama berputar dengan pendingin balik",
+      "Keduanya sama, hanya berbeda nama",
+      "Soxhlet menggunakan air sebagai pelarut; Refluks menggunakan etanol"
+    ],
+    "correct": 2,
+    "explanation": "Soxhlet adalah ekstraksi menggunakan pelarut yang selalu baru dengan alat khusus sehingga terjadi ekstraksi kontinu dengan jumlah pelarut relatif konstan. Refluks menggunakan pelarut pada temperatur titik didihnya dengan jumlah pelarut terbatas yang relatif konstan dengan adanya pendingin balik.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E23",
+    "question": "Apa yang dimaksud dengan digesti?",
+    "options": [
+      "Infus dengan waktu lebih lama ≥30 menit sampai titik didih air",
+      "Maserasi biasa pada suhu kamar tanpa pengadukan",
+      "Ekstraksi senyawa menguap dengan uap air",
+      "Ekstraksi dengan pelarut air pada suhu 90-96°C selama 15-20 menit",
+      "Maserasi kinetik dengan pengadukan kontinu pada temperatur lebih tinggi dari suhu ruangan, umumnya 40-50°C"
+    ],
+    "correct": 4,
+    "explanation": "Digesti adalah maserasi kinetik (dengan pengadukan kontinu) pada temperatur yang lebih tinggi dari suhu ruangan, umumnya 40-50°C.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E24",
+    "question": "Pada metode infus, berapa suhu dan lama ekstraksi yang digunakan?",
+    "options": [
+      "Suhu titik didih pelarut selama 3-5 jam",
+      "Suhu kamar selama 24 jam",
+      "Suhu 90-96°C selama 15-20 menit",
+      "Suhu 40-50°C selama 1-2 jam",
+      "Suhu 100°C selama ≥30 menit"
+    ],
+    "correct": 2,
+    "explanation": "Infus adalah ekstraksi dengan pelarut air pada temperatur penangas air (sekitar 90-96°C), selama waktu tertentu (15-20 menit). Sari yang diperoleh tidak boleh disimpan lebih dari 24 jam karena tidak stabil dan mudah tercemar.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E25",
+    "question": "Apa perbedaan antara infus dan dekok?",
+    "options": [
+      "Dekok menggunakan pelarut organik, infus hanya air",
+      "Dekok adalah infus dengan waktu lebih lama (≥30 menit) dan temperatur sampai titik didih air",
+      "Infus dilakukan pada suhu kamar, dekok pada suhu 90-96°C",
+      "Infus menggunakan etanol, dekok menggunakan air",
+      "Tidak ada perbedaan, keduanya identik"
+    ],
+    "correct": 1,
+    "explanation": "Dekok adalah infus pada waktu yang lebih lama (≥30 menit) dan temperatur sampai titik didih air, sedangkan infus dilakukan pada suhu 90-96°C selama 15-20 menit saja.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E26",
+    "question": "Untuk apa metode destilasi uap digunakan dalam ekstraksi herbal?",
+    "options": [
+      "Melarutkan senyawa polar dengan uap air bersuhu tinggi",
+      "Mengeringkan simplisia dengan cepat menggunakan uap air bertekanan tinggi",
+      "Mengekstraksi alkaloid dari simplisia dengan menggunakan uap etanol",
+      "Mengekstraksi senyawa kandungan yang mudah menguap (minyak atsiri) dari bahan segar atau simplisia",
+      "Memurnikan ekstrak dari senyawa pengotor menggunakan uap panas"
+    ],
+    "correct": 3,
+    "explanation": "Destilasi uap adalah ekstraksi senyawa kandungan menguap (minyak atsiri) dari bahan (segar atau simplisia) dengan uap air berdasarkan peristiwa tekanan parsial senyawa kandungan menguap dengan fase uap air dari ketel secara kontinu sampai sempurna dan diakhiri dengan kondensasi fase uap campuran.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E27",
+    "question": "Apa yang dimaksud dengan rendemen dan bagaimana cara menghitungnya?",
+    "options": [
+      "Kadar air yang tersisa dalam ekstrak setelah pengeringan",
+      "Rasio pelarut yang digunakan terhadap simplisia",
+      "Perbandingan berat ekstrak kering terhadap ekstrak basah",
+      "Persentase zat aktif yang berhasil diekstraksi dari total kandungan",
+      "Perbandingan bobot ekstrak yang diperoleh terhadap bobot simplisia awal, dihitung: (Bobot hasil / Bobot simplisia) × 100%"
+    ],
+    "correct": 4,
+    "explanation": "Rendemen adalah perbandingan antara ekstrak yang diperoleh dengan simplisia awal. Rumus: Rendemen (%) = Bobot hasil (g atau ml) / Bobot simplisia (g) × 100%.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E28",
+    "question": "Parameter apa saja yang dinilai dalam kontrol kualitas/standarisasi ekstrak?",
+    "options": [
+      "Rendemen, organoleptis (warna/bau/rasa/konsistensi), dan susut pengeringan",
+      "pH, viskositas, dan titik lebur",
+      "Hanya rendemen dan kadar zat aktif",
+      "Hanya kadar air dan kadar abu",
+      "Warna dan bau saja"
+    ],
+    "correct": 0,
+    "explanation": "Kontrol kualitas ekstrak mencakup: Rendemen (%), Organoleptis (warna, bau, rasa, dan konsistensi), serta Susut pengeringan (pemanasan 105°C selama 5 jam hingga bobot konstan).",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E29",
+    "question": "Pada prosedur susut pengeringan ekstrak, berapa suhu dan lama waktu pengeringan yang digunakan?",
+    "options": [
+      "105°C selama 5 jam, hingga selisih 2 kali penimbangan berturut-turut tidak lebih dari 0,25%",
+      "105°C selama 30 menit saja",
+      "80°C selama 2 jam, hingga bobot konstan",
+      "60°C selama 8 jam",
+      "120°C selama 1 jam"
+    ],
+    "correct": 0,
+    "explanation": "Prosedur susut pengeringan: botol timbang dipanaskan dulu 105°C/30 menit → timbang ±1 gram ekstrak → keringkan di oven 105°C selama 5 jam → keluarkan dan biarkan 30 menit → timbang → ulangi hingga bobot konstan (selisih ≤0,25%).",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E30",
+    "question": "Mengapa sari yang diperoleh dengan metode infus tidak boleh disimpan lebih dari 24 jam?",
+    "options": [
+      "Karena zat aktifnya akan menguap dalam waktu 24 jam",
+      "Karena pada suhu kamar infus akan mengkristal",
+      "Karena reaksi kimia antar zat aktif terjadi setelah 24 jam",
+      "Karena sari tidak stabil dan mudah tercemar oleh kuman/mikroba",
+      "Karena pelarut air akan menguap dan meningkatkan konsentrasi secara berbahaya"
+    ],
+    "correct": 3,
+    "explanation": "Infundasi menghasilkan sari yang tidak stabil dan mudah tercemar oleh kuman. Oleh sebab itu sari yang diperoleh dengan cara ini tidak boleh disimpan lebih dari 24 jam.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E31",
+    "question": "Tahap separasi dan pemurnian dalam pembuatan ekstrak bertujuan untuk...",
+    "options": [
+      "Menentukan kadar air simplisia sebelum diekstraksi",
+      "Menghilangkan/memisahkan senyawa yang tidak dikehendaki semaksimal mungkin tanpa mempengaruhi senyawa aktif",
+      "Meningkatkan konsentrasi pelarut dalam ekstrak",
+      "Mengubah senyawa aktif menjadi bentuk yang lebih stabil",
+      "Menambahkan bahan pengawet ke dalam ekstrak"
+    ],
+    "correct": 1,
+    "explanation": "Tujuan separasi dan pemurnian adalah menghilangkan/memisahkan senyawa yang tidak dikehendaki semaksimal mungkin tanpa berpengaruh pada senyawa aktifnya. Prosesnya meliputi: pengendapan, pemisahan dua cairan tak campur, sentrifugasi, dekantasi, filtrasi, adsorbsi, dan penukar ion.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E32",
+    "question": "Metode ekstraksi manakah yang menggunakan prinsip superkritikal CO₂?",
+    "options": [
+      "Cara ekstraksi lain (selain pelarut cair dan destilasi uap)",
+      "Cara panas — Soxhlet",
+      "Cara dingin — Maserasi",
+      "Cara panas — Refluks",
+      "Cara dingin — Perkolasi"
+    ],
+    "correct": 0,
+    "explanation": "Superkritikal karbondioksida termasuk dalam 'Cara ekstraksi lain' bersama dengan ekstraksi berkesinambungan, ekstraksi ultrasonik, dan ekstraksi energi listrik — bukan bagian dari ekstraksi pelarut cair biasa maupun destilasi uap.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E33",
+    "question": "Bahan mana yang DILARANG digunakan dalam obat tradisional menurut BPOM?",
+    "options": [
+      "Daun sambiloto dan jahe merah",
+      "Kunyit dan temulawak",
+      "Asam jawa dan bawang putih",
+      "Etanol dan gliserin",
+      "Biji kecubung, daun kratom, dan merkuri"
+    ],
+    "correct": 4,
+    "explanation": "Berdasarkan BPOM No. 32 tahun 2019, bahan yang dilarang antara lain: biji saga, biji kecubung, herba efedra, gandarusa, daun tembelekan, daun kratom, daun/buah Nerium oleander, daun komfre, hewan kodok kerok, serta mineral sulfur (kecuali untuk obat luar), arsen, dan merkuri.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "E34",
+    "question": "Iklan obat tradisional TIDAK boleh mengklaim mengobati penyakit apa?",
+    "options": [
+      "Semua penyakit kronis tanpa terkecuali",
+      "Kanker, tuberkulosis, poliomielitis, penyakit kelamin, impotensi, tifus, kolera, hipertensi, diabetes, dan penyakit hati",
+      "Flu biasa, demam, dan batuk",
+      "Kulit kusam dan rambut rontok",
+      "Pegal linu dan kelelahan"
+    ],
+    "correct": 1,
+    "explanation": "Berdasarkan Kepmenkes No. 386/1994, obat tradisional dilarang diiklankan berkhasiat mengobati/mencegah: kanker, TBC, poliomielitis, penyakit kelamin, impotensi, tifus, kolera, tekanan darah tinggi, diabetes, penyakit hati, serta penyakit lain yang ditetapkan Menteri Kesehatan.",
+    "category": "Ekstraksi Obat",
+    "img": null
+  },
+  {
+    "id": "H1",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Paket Wedang Uwuh",
+      "Daun Stevia",
+      "Daun Binahong",
+      "Pasak Bumi",
+      "Kayu Manis"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Paket Wedang Uwuh. Termasuk dalam kelompok Simplisia Serbuk.",
+    "category": "Simplisia Serbuk (Bergambar)",
+    "img": "6_Simplisia_Serbuk/Paket_wedang_uwuh/Paket wedang uwuh.jpg"
+  },
+  {
+    "id": "H2",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Cina",
+      "Pasak Bumi",
+      "Daun Jambu",
+      "Kayu Manis",
+      "Daun Binahong"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Pasak Bumi. Termasuk dalam kelompok Simplisia Serbuk.",
+    "category": "Simplisia Serbuk (Bergambar)",
+    "img": "6_Simplisia_Serbuk/Pasak_bumi/Pasak Bumi.jpg"
+  },
+  {
+    "id": "H3",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Serbuk Kunyit",
+      "Daun Sirih Cina",
+      "Daun Mint",
+      "Serbuk Jahe",
+      "Pasak Bumi"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Serbuk Jahe. Termasuk dalam kelompok Simplisia Serbuk.",
+    "category": "Simplisia Serbuk (Bergambar)",
+    "img": "6_Simplisia_Serbuk/Serbuk_jahe/Serbuk jahe.jpg"
+  },
+  {
+    "id": "H4",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Serbuk Jahe",
+      "Daun Jati Belanda",
+      "Serbuk Kunyit",
+      "Daun Jati Cina",
+      "Daun Sambiloto"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Serbuk Kunyit. Termasuk dalam kelompok Simplisia Serbuk.",
+    "category": "Simplisia Serbuk (Bergambar)",
+    "img": "6_Simplisia_Serbuk/Serbuk_kunyit/Serbuk Kunyit.jpg"
+  },
+  {
+    "id": "H5",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Binahong",
+      "Daun Jambu",
+      "Batang Lidah Buaya",
+      "Daun Kemangi",
+      "Jahe Merah"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Binahong. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_binahong/Daun binahong 1.jpeg"
+  },
+  {
+    "id": "H6",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sirih",
+      "Daun Kumis Kucing",
+      "Daun Binahong",
+      "Daun Sirih Cina",
+      "Batang Sereh/Serai"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Binahong. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_binahong/Daun binahong 2.jpeg"
+  },
+  {
+    "id": "H7",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Binahong",
+      "Kunyit",
+      "Laos/Galangal",
+      "Daun Jambu",
+      "Kencur"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Binahong. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_binahong/Daun binahong 3.jpeg"
+  },
+  {
+    "id": "H8",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jambu",
+      "Jahe Merah",
+      "Daun Sirih",
+      "Daun Pandan",
+      "Daun Meniran"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Jambu. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_jambu/Daun jambu 1.jpeg"
+  },
+  {
+    "id": "H9",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jambu",
+      "Daun Kemangi",
+      "Kencur",
+      "Daun Pandan",
+      "Daun Jati Cina"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Jambu. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_jambu/Daun jambu 2.jpeg"
+  },
+  {
+    "id": "H10",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto",
+      "Daun Jati Cina",
+      "Daun Salam",
+      "Laos/Galangal",
+      "Daun Jarak"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Jarak. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_jarak/Daun jarak 1.jpeg"
+  },
+  {
+    "id": "H11",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kayu Manis",
+      "Daun Meniran",
+      "Daun Jati Belanda",
+      "Kunyit",
+      "Daun Jambu"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Jati Belanda. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_Jati_Belanda/WhatsApp Image 2026-06-22 at 5.36.11 PM.jpeg"
+  },
+  {
+    "id": "H12",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Batang Lidah Buaya",
+      "Daun Jati Belanda",
+      "Buah Jambu",
+      "Daun Sambiloto",
+      "Daun Jati Cina"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Jati Cina. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_jati_cina/Daun jati cina 1.jpeg"
+  },
+  {
+    "id": "H13",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Batang Lidah Buaya",
+      "Daun Mint",
+      "Kunyit Putih",
+      "Daun Jati Cina",
+      "Kayu Secang"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Jati Cina. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_jati_cina/Daun jati cina 2.jpeg"
+  },
+  {
+    "id": "H14",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Cina",
+      "Temulawak",
+      "Laos/Galangal",
+      "Daun Salam",
+      "Batang Sereh/Serai"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Jati Cina. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_jati_cina/Jati cina.jpg"
+  },
+  {
+    "id": "H15",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Jahe Merah",
+      "Daun Jarak",
+      "Daun Jambu",
+      "Daun Katuk",
+      "Akar Wangi"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Katuk. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_katuk/Daun katuk 1.jpeg"
+  },
+  {
+    "id": "H16",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Katuk",
+      "Kencur",
+      "Daun Mint",
+      "Daun Jarak",
+      "Laos/Galangal"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Katuk. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_katuk/Daun katuk 2.jpeg"
+  },
+  {
+    "id": "H17",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Laos/Galangal",
+      "Daun Kelor",
+      "Daun Jati Belanda",
+      "Daun Sambiloto",
+      "Daun Meniran"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kelor/Daun kelor 1.jpeg"
+  },
+  {
+    "id": "H18",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kayu Secang",
+      "Kunyit Putih",
+      "Daun Salam",
+      "Daun Katuk",
+      "Daun Kelor"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kelor/Daun kelor 2.jpeg"
+  },
+  {
+    "id": "H19",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Salam",
+      "Daun Kemangi",
+      "Akar Wangi",
+      "Daun Meniran",
+      "Daun Kelor"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kelor/Daun kelor 3.jpeg"
+  },
+  {
+    "id": "H20",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kayu Manis",
+      "Daun Kelor",
+      "Kayu Secang",
+      "Daun Katuk",
+      "Batang Lidah Buaya"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kelor/Daun kelor 4.jpg"
+  },
+  {
+    "id": "H21",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Katuk",
+      "Daun Sirih Cina",
+      "Daun Kemangi",
+      "Daun Sambiloto",
+      "Daun Meniran"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Kemangi. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kemangi/Daun Kemangi 1.jpeg"
+  },
+  {
+    "id": "H22",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kumis Kucing",
+      "Daun Kemangi",
+      "Akar Wangi",
+      "Daun Pandan",
+      "Kunyit Putih"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Kemangi. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kemangi/Daun Kemangi 2.jpeg"
+  },
+  {
+    "id": "H23",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kumis Kucing",
+      "Daun Kemangi",
+      "Kunyit Putih",
+      "Daun Jambu",
+      "Kunyit"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Kumis Kucing. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kumis_kucing/Daun kumis kucing 1.jpeg"
+  },
+  {
+    "id": "H24",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto",
+      "Daun Meniran",
+      "Daun Jarak",
+      "Daun Kelor",
+      "Daun Kumis Kucing"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Kumis Kucing. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_kumis_kucing/Daun kumis kucing 2.jpeg"
+  },
+  {
+    "id": "H25",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Temulawak",
+      "Daun Meniran",
+      "Jahe Merah",
+      "Daun Pandan",
+      "Daun Kelor"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Meniran. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_meniran/Daun meniran 1.jpeg"
+  },
+  {
+    "id": "H26",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto",
+      "Daun Meniran",
+      "Temulawak",
+      "Buah Jambu",
+      "Kayu Secang"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Meniran. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_meniran/Daun meniran 2.jpeg"
+  },
+  {
+    "id": "H27",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Cina",
+      "Daun Kumis Kucing",
+      "Daun Kemangi",
+      "Jahe Putih",
+      "Daun Meniran"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Meniran. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_meniran/Meniran kering.jpg"
+  },
+  {
+    "id": "H28",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Batang Lidah Buaya",
+      "Daun Kumis Kucing",
+      "Daun Mint",
+      "Jahe Putih",
+      "Batang Sereh/Serai"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Mint. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_mint/Daun mint 1.jpeg"
+  },
+  {
+    "id": "H29",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Temulawak",
+      "Batang Sereh/Serai",
+      "Daun Sambiloto",
+      "Daun Salam",
+      "Daun Mint"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Mint. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_mint/Daun mint 2.jpeg"
+  },
+  {
+    "id": "H30",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Cina",
+      "Daun Stevia",
+      "Daun Sirsak",
+      "Daun Pandan",
+      "Daun Jarak"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Pandan. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_pandan/Daun pandan 1.jpeg"
+  },
+  {
+    "id": "H31",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Laos/Galangal",
+      "Daun Jati Belanda",
+      "Daun Jati Cina",
+      "Daun Pandan",
+      "Kayu Secang"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Pandan. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_pandan/Daun pandan 2.jpeg"
+  },
+  {
+    "id": "H32",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kunyit",
+      "Daun Salam",
+      "Akar Wangi",
+      "Daun Sirih",
+      "Kayu Manis"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Salam. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_salam/Daun salam 1.jpeg"
+  },
+  {
+    "id": "H33",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Salam",
+      "Daun Sambiloto",
+      "Kayu Manis",
+      "Daun Sirih Cina",
+      "Daun Stevia"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Salam. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_salam/Daun salam 2.jpeg"
+  },
+  {
+    "id": "H34",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Batang Lidah Buaya",
+      "Laos/Galangal",
+      "Daun Binahong",
+      "Daun Salam",
+      "Akar Wangi"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Salam. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_salam/Daun salam 3.jpeg"
+  },
+  {
+    "id": "H35",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Akar Wangi",
+      "Temulawak",
+      "Daun Sambiloto",
+      "Batang Lidah Buaya",
+      "Kencur"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Sambiloto. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sambiloto/Daun sambiloto 1.jpeg"
+  },
+  {
+    "id": "H36",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto",
+      "Kencur",
+      "Kayu Secang",
+      "Daun Mint",
+      "Daun Jati Belanda"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Sambiloto. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sambiloto/Daun sambiloto 2.jpeg"
+  },
+  {
+    "id": "H37",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sirih",
+      "Daun Katuk",
+      "Daun Sirih Cina",
+      "Daun Binahong",
+      "Daun Sambiloto"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Sambiloto. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sambiloto/Daun Sambiloto.jpg"
+  },
+  {
+    "id": "H38",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Stevia",
+      "Kencur",
+      "Daun Katuk",
+      "Daun Sirih",
+      "Buah Jambu"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Sirih. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirih/Daun sirih 1.jpeg"
+  },
+  {
+    "id": "H39",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Laos/Galangal",
+      "Kayu Secang",
+      "Daun Sirih",
+      "Daun Meniran",
+      "Kunyit Putih"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Sirih. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirih/Daun sirih 2.jpeg"
+  },
+  {
+    "id": "H40",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kayu Manis",
+      "Daun Kelor",
+      "Daun Jati Cina",
+      "Daun Sirih Cina",
+      "Daun Pandan"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Sirih Cina. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirih_cina/Daun sirih cina 1.jpeg"
+  },
+  {
+    "id": "H41",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Batang Lidah Buaya",
+      "Kencur",
+      "Buah Jambu",
+      "Daun Sirih Cina",
+      "Daun Stevia"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Sirih Cina. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirih_cina/Daun sirih cina 2.jpeg"
+  },
+  {
+    "id": "H42",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kayu Manis",
+      "Daun Mint",
+      "Daun Sirsak",
+      "Daun Binahong",
+      "Daun Sirih Cina"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Sirih Cina. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirih_cina/Daun sirih cina 3.jpeg"
+  },
+  {
+    "id": "H43",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sirsak",
+      "Buah Jambu",
+      "Daun Pandan",
+      "Temulawak",
+      "Kunyit Putih"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirsak/Daun sirsak 1.jpeg"
+  },
+  {
+    "id": "H44",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kemangi",
+      "Daun Sirsak",
+      "Daun Jambu",
+      "Temulawak",
+      "Batang Sereh/Serai"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirsak/Daun sirsak 2.jpeg"
+  },
+  {
+    "id": "H45",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jarak",
+      "Jahe Putih",
+      "Daun Sirih Cina",
+      "Kunyit Putih",
+      "Daun Sirsak"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirsak/Daun sirsak 3.jpeg"
+  },
+  {
+    "id": "H46",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kencur",
+      "Batang Lidah Buaya",
+      "Daun Jati Cina",
+      "Daun Sirsak",
+      "Akar Wangi"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_sirsak/Daun sirsak 4.jpeg"
+  },
+  {
+    "id": "H47",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Batang Lidah Buaya",
+      "Daun Stevia",
+      "Daun Katuk",
+      "Daun Kumis Kucing",
+      "Daun Sirsak"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Stevia. Termasuk dalam kelompok Simplisia Daun.",
+    "category": "Simplisia Daun (Bergambar)",
+    "img": "1_Daun/Daun_Stevia/Stevia.jpeg"
+  },
+  {
+    "id": "H48",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Mint",
+      "Daun Jati Belanda",
+      "Batang Lidah Buaya",
+      "Buah Jambu",
+      "Daun Sirih"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Batang Lidah Buaya. Termasuk dalam kelompok Simplisia Batang/Kayu.",
+    "category": "Simplisia Batang/Kayu (Bergambar)",
+    "img": "2_Batang_Kayu/Batang_lidah_buaya/Batang_lidah_buaya 1.jpeg"
+  },
+  {
+    "id": "H49",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Jahe Merah",
+      "Daun Kelor",
+      "Daun Meniran",
+      "Akar Wangi",
+      "Batang Lidah Buaya"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Batang Lidah Buaya. Termasuk dalam kelompok Simplisia Batang/Kayu.",
+    "category": "Simplisia Batang/Kayu (Bergambar)",
+    "img": "2_Batang_Kayu/Batang_lidah_buaya/Batang_lidah_buaya 2.jpeg"
+  },
+  {
+    "id": "H50",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Pandan",
+      "Batang Sereh/Serai",
+      "Temulawak",
+      "Daun Sambiloto",
+      "Daun Binahong"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Batang Sereh/Serai. Termasuk dalam kelompok Simplisia Batang/Kayu.",
+    "category": "Simplisia Batang/Kayu (Bergambar)",
+    "img": "2_Batang_Kayu/Batang_sereh_serai/Batang_sereh_serai 1.jpeg"
+  },
+  {
+    "id": "H51",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Cina",
+      "Kayu Secang",
+      "Kayu Manis",
+      "Daun Kemangi",
+      "Batang Lidah Buaya"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Kayu Manis. Termasuk dalam kelompok Simplisia Batang/Kayu.",
+    "category": "Simplisia Batang/Kayu (Bergambar)",
+    "img": "2_Batang_Kayu/Kayu_manis/kayu manis 2.jpeg"
+  },
+  {
+    "id": "H52",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sirih",
+      "Daun Jati Cina",
+      "Daun Sirih Cina",
+      "Kayu Manis",
+      "Batang Lidah Buaya"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Kayu Manis. Termasuk dalam kelompok Simplisia Batang/Kayu.",
+    "category": "Simplisia Batang/Kayu (Bergambar)",
+    "img": "2_Batang_Kayu/Kayu_manis/Kayu_manis (cinamon) 1.jpg"
+  },
+  {
+    "id": "H53",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kayu Secang",
+      "Jahe Merah",
+      "Daun Stevia",
+      "Batang Sereh/Serai",
+      "Daun Jati Cina"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Kayu Secang. Termasuk dalam kelompok Simplisia Batang/Kayu.",
+    "category": "Simplisia Batang/Kayu (Bergambar)",
+    "img": "2_Batang_Kayu/Kayu_secang/Kayu_secang 1.jpg"
+  },
+  {
+    "id": "H54",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Temulawak",
+      "Batang Sereh/Serai",
+      "Kayu Secang",
+      "Laos/Galangal",
+      "Daun Kemangi"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Kayu Secang. Termasuk dalam kelompok Simplisia Batang/Kayu.",
+    "category": "Simplisia Batang/Kayu (Bergambar)",
+    "img": "2_Batang_Kayu/Kayu_secang/Kayu_secang 2.jpeg"
+  },
+  {
+    "id": "H55",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Meniran",
+      "Daun Binahong",
+      "Akar Wangi",
+      "Daun Jambu",
+      "Daun Sirih"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Akar Wangi. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Akar_wangi/Akar_wangi 1.jpeg"
+  },
+  {
+    "id": "H56",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Temulawak",
+      "Daun Mint",
+      "Kunyit Putih",
+      "Daun Sirsak",
+      "Jahe Merah"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Jahe Merah. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Jahe_merah/Jahe merah 1.jpg"
+  },
+  {
+    "id": "H57",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Pandan",
+      "Daun Kumis Kucing",
+      "Daun Binahong",
+      "Batang Lidah Buaya",
+      "Jahe Merah"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Jahe Merah. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Jahe_merah/Jahe merah 2.jpeg"
+  },
+  {
+    "id": "H58",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Batang Lidah Buaya",
+      "Daun Kelor",
+      "Jahe Merah",
+      "Temulawak",
+      "Kunyit"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Jahe Merah. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Jahe_merah/Jahe merah 3.jpg"
+  },
+  {
+    "id": "H59",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Jahe Putih",
+      "Daun Sirih",
+      "Daun Kelor",
+      "Daun Jati Cina",
+      "Daun Kemangi"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Jahe Putih. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Jahe_putih/Jahe putih 1.jpg"
+  },
+  {
+    "id": "H60",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sirih",
+      "Daun Sambiloto",
+      "Kencur",
+      "Kunyit",
+      "Jahe Merah"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Kencur. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Kencur/Kencur 1.jpeg"
+  },
+  {
+    "id": "H61",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sirsak",
+      "Daun Jati Belanda",
+      "Kencur",
+      "Batang Lidah Buaya",
+      "Kayu Manis"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Kencur. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Kencur/Kencur 2.jpeg"
+  },
+  {
+    "id": "H62",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Binahong",
+      "Kunyit",
+      "Temulawak",
+      "Daun Mint",
+      "Daun Kemangi"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Kunyit. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Kunyit/Kunyit 2.jpeg"
+  },
+  {
+    "id": "H63",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kelor",
+      "Laos/Galangal",
+      "Kunyit",
+      "Daun Jambu",
+      "Daun Kemangi"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Kunyit. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Kunyit/Kunyit.jpg"
+  },
+  {
+    "id": "H64",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kayu Manis",
+      "Buah Jambu",
+      "Jahe Putih",
+      "Kunyit Putih",
+      "Daun Kemangi"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Kunyit Putih. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Kunyit_putih/Kunyit putih 1.jpeg"
+  },
+  {
+    "id": "H65",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kencur",
+      "Laos/Galangal",
+      "Jahe Merah",
+      "Daun Sambiloto",
+      "Daun Mint"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Laos/Galangal. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Laos/Laos 1.jpeg"
+  },
+  {
+    "id": "H66",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Jahe Putih",
+      "Buah Jambu",
+      "Daun Stevia",
+      "Temulawak",
+      "Kayu Manis"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Temulawak. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Temulawak/temulawak.jpeg"
+  },
+  {
+    "id": "H67",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Kunyit Putih",
+      "Daun Kelor",
+      "Daun Kumis Kucing",
+      "Laos/Galangal",
+      "Temulawak"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Temulawak. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
+    "category": "Simplisia Akar/Umbi/Rimpang (Bergambar)",
+    "img": "3_Akar_Umbi_Rimpang/Temulawak/Temulawak.jpg"
+  },
+  {
+    "id": "H68",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Buah Jambu",
+      "Kayu Manis",
+      "Buah Mahkota Dewa",
+      "Bunga Rosella",
+      "Daun Jati Cina"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Buah Jambu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_jambu/Buah jambu 1.jpg"
+  },
+  {
+    "id": "H69",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Buah Jambu",
+      "Daun Jati Cina",
+      "Daun Binahong",
+      "Kayu Secang",
+      "Daun Stevia"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Buah Jambu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_jambu/Buah jambu 2.jpg"
+  },
+  {
+    "id": "H70",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jambu",
+      "Daun Katuk",
+      "Daun Sirih",
+      "Daun Sirih Cina",
+      "Buah Jarak"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Buah Jarak. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_jarak/Buah jarak 1.jpg"
+  },
+  {
+    "id": "H71",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Buah Mahkota Dewa",
+      "Daun Sambiloto",
+      "Daun Sirih",
+      "Daun Kemangi",
+      "Bunga Lawang"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Buah Mahkota Dewa. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_mahkota_dewa/Mahkotadewa 1.jpg"
+  },
+  {
+    "id": "H72",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jambu",
+      "Cengkeh",
+      "Buah Jarak",
+      "Buah Mengkudu",
+      "Daun Mint"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Buah Mengkudu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_mengkudu/Mengkudu_pace 1.jpeg"
+  },
+  {
+    "id": "H73",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Buah Mengkudu",
+      "Buah Jarak",
+      "Daun Sirih Cina",
+      "Daun Jarak",
+      "Daun Mint"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Buah Mengkudu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_mengkudu/Mengkudu_pace 2.jpeg"
+  },
+  {
+    "id": "H74",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kumis Kucing",
+      "Kayu Secang",
+      "Batang Sereh/Serai",
+      "Bunga Rosella",
+      "Buah Mengkudu"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Buah Mengkudu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_mengkudu/Mengkudu_pace 3.jpeg"
+  },
+  {
+    "id": "H75",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kumis Kucing",
+      "Buah Pala",
+      "Buah Mahkota Dewa",
+      "Batang Sereh/Serai",
+      "Bunga Rosella"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Buah Pala. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_pala/Buah pala.jpeg"
+  },
+  {
+    "id": "H76",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Pandan",
+      "Buah Mahkota Dewa",
+      "Daun Sambiloto",
+      "Buah Pala",
+      "Batang Sereh/Serai"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Buah Pala. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Buah_pala/Pala.jpg"
+  },
+  {
+    "id": "H77",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Cina",
+      "Bunga Lawang",
+      "Buah Mengkudu",
+      "Kayu Manis",
+      "Daun Mint"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Bunga Lawang. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Bunga_lawang/Bunga lawang atau Starnese 1.jpg"
+  },
+  {
+    "id": "H78",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Bunga Lawang",
+      "Daun Mint",
+      "Daun Pandan",
+      "Buah Jarak",
+      "Buah Mahkota Dewa"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Bunga Lawang. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Bunga_lawang/Bunga lawang atau Starnese 2.jpg"
+  },
+  {
+    "id": "H79",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto",
+      "Daun Mint",
+      "Bunga Rosella",
+      "Daun Kumis Kucing",
+      "Daun Jarak"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Bunga Rosella. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Bunga_rosella/Bunga rosella 1.jpg"
+  },
+  {
+    "id": "H80",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Cengkeh",
+      "Bunga Rosella",
+      "Daun Sambiloto",
+      "Daun Sirih",
+      "Daun Jarak"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Bunga Rosella. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Bunga_rosella/Bunga rosella 2.jpg"
+  },
+  {
+    "id": "H81",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Bunga Rosella",
+      "Daun Binahong",
+      "Daun Jati Cina",
+      "Buah Pala",
+      "Daun Sambiloto"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Bunga Rosella. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Bunga_rosella/RAHASIA HERBAL.jpeg"
+  },
+  {
+    "id": "H82",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kelor",
+      "Daun Jarak",
+      "Kayu Secang",
+      "Daun Sirsak",
+      "Cengkeh"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Cengkeh. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Cengkeh/Bunga cengkeh 1.jpeg"
+  },
+  {
+    "id": "H83",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Buah Jambu",
+      "Cengkeh",
+      "Daun Kelor",
+      "Daun Pandan",
+      "Daun Mint"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Cengkeh. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Cengkeh/Cengkeh.jpg"
+  },
+  {
+    "id": "H84",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Buah Mahkota Dewa",
+      "Daun Meniran",
+      "Bunga Rosella",
+      "Jeruk Nipis",
+      "Daun Kumis Kucing"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Jeruk Nipis. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Jeruk_nipis/69f7b932-3898-431f-a725-c871da96cc75.jpg"
+  },
+  {
+    "id": "H85",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Buah Pala",
+      "Jeruk Nipis",
+      "Kayu Secang",
+      "Daun Jati Belanda",
+      "Kayu Manis"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Jeruk Nipis. Termasuk dalam kelompok Simplisia Bunga/Buah.",
+    "category": "Simplisia Bunga/Buah (Bergambar)",
+    "img": "4_Bunga_Buah/Jeruk_nipis/Jeruk nipis 1.jpg"
+  },
+  {
+    "id": "H86",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Akar Wangi",
+      "Asam Jawa",
+      "Daun Jambu",
+      "Daun Katuk",
+      "Daun Jati Belanda"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Asam Jawa. Termasuk dalam kelompok Simplisia Biji/Rempah.",
+    "category": "Simplisia Biji/Rempah (Bergambar)",
+    "img": "5_Biji_Rempah/Asam_jawa/Asam Jawa 1.jpg"
+  },
+  {
+    "id": "H87",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kumis Kucing",
+      "Kayu Manis",
+      "Bawang Lanang/Tunggal",
+      "Daun Pandan",
+      "Daun Sirsak"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Bawang Lanang/Tunggal. Termasuk dalam kelompok Simplisia Biji/Rempah.",
+    "category": "Simplisia Biji/Rempah (Bergambar)",
+    "img": "5_Biji_Rempah/Bawang_lanang_tunggal/Bawang ungal.jpg"
+  },
+  {
+    "id": "H88",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto",
+      "Batang Sereh/Serai",
+      "Daun Sirih",
+      "Daun Mint",
+      "Bawang Merah"
+    ],
+    "correct": 4,
+    "explanation": "Gambar ini menunjukkan Bawang Merah. Termasuk dalam kelompok Simplisia Biji/Rempah.",
+    "category": "Simplisia Biji/Rempah (Bergambar)",
+    "img": "5_Biji_Rempah/Bawang_merah/Bawang merah.jpg"
+  },
+  {
+    "id": "H89",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sirih Cina",
+      "Kayu Manis",
+      "Daun Pandan",
+      "Bawang Putih",
+      "Daun Jati Belanda"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Bawang Putih. Termasuk dalam kelompok Simplisia Biji/Rempah.",
+    "category": "Simplisia Biji/Rempah (Bergambar)",
+    "img": "5_Biji_Rempah/Bawang_putih/Bawang putih.jpg"
+  },
+  {
+    "id": "H90",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Akar Wangi",
+      "Kapulaga",
+      "Cabai Jawa",
+      "Daun Jarak",
+      "Bawang Putih"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Cabai Jawa. Termasuk dalam kelompok Simplisia Biji/Rempah.",
+    "category": "Simplisia Biji/Rempah (Bergambar)",
+    "img": "5_Biji_Rempah/Cabai_jawa/Cabai_jawa 1.jpg"
+  },
+  {
+    "id": "H91",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Stevia",
+      "Daun Pandan",
+      "Cabai Jawa",
+      "Kapulaga",
+      "Daun Jarak"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Kapulaga. Termasuk dalam kelompok Simplisia Biji/Rempah.",
+    "category": "Simplisia Biji/Rempah (Bergambar)",
+    "img": "5_Biji_Rempah/Kapulaga/Kapulaga 1.jpg"
+  },
+  {
+    "id": "H92",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto",
+      "Mentimun",
+      "Daun Binahong",
+      "Daun Sirsak",
+      "Daun Jati Cina"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Mentimun. Termasuk dalam kelompok Simplisia Biji/Rempah.",
+    "category": "Simplisia Biji/Rempah (Bergambar)",
+    "img": "5_Biji_Rempah/Mentimun/WhatsApp Image 2026-06-22 at 5.36.12 PM.jpeg"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "tryhard-farmako",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.2.2",
+    "@tanstack/react-store": "0.10.0",
+    "@tanstack/store": "0.10.0",
+    "lucide-react": "0.576.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tailwindcss": "4.2.2",
+    "vite-tsconfig-paths": "6.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.2.2",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.15",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "lucide-react": "0.576.0",
+    "tailwindcss": "4.2.2",
+    "typescript": "5.9.3",
+    "vite": "7.3.3"
+  }
+}
