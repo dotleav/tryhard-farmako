@@ -206,7 +206,7 @@ export default function Quiz() {
   // ── Tentamen: timer countdown ──
   useEffect(() => {
     if (quizMode !== 'tentamen' || tentamenState !== 'running' || qPhase !== 'answering') return
-    // Bekicot = 5-7 hari kerja
+    // Bekicot = no timer
     if (tentamenDifficulty === 'bekicot') return
     if (timeLeft === 0) {
       setTentamenAnswers(prev => { const n = [...prev]; n[currentIdx] = 'skipped'; return n })
@@ -737,7 +737,7 @@ function SetupCard({ questionCount, onStart, difficulty, onDifficultyChange }: {
                   fontFamily: '"JetBrains Mono", monospace',
                   fontWeight: 700,
                 }}>
-                  {dcfg.timerSeconds === 0 ? 'no timer' : `${dcfg.timerSeconds}s / soal`}
+                  {dcfg.timerSeconds === 0 ? '5-7 hari kerja' : `${dcfg.timerSeconds}s / soal`}
                 </div>
               </button>
             )
