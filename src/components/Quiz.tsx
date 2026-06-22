@@ -373,21 +373,19 @@ export default function Quiz() {
                 🗿 <span style={{ color: '#e8a83899', fontWeight: 600 }}>Dotleav's note*:</span>{' '}
                 Latihan soal ini dibuat berdasarkan OV, Buku blok, gambar dari google dan praktikum serta mimpi dan harapan untuk masa depan yang kelam. Soal bertujuan untuk dijadikan alat latihan dan tidak menjamin responsi akan sama persis.
               </div>
-              <div className="flex items-center justify-between">
-                <div>
-                  <h1 style={{
-                    fontFamily: '"DM Serif Display", Georgia, serif',
-                    color: '#e8a838',
-                    fontSize: 'clamp(1.3rem, 4vw, 1.6rem)',
-                    fontWeight: 700,
-                    lineHeight: 1.2,
-                    margin: 0,
-                  }}>
-                    Latihan Soal Farmako 2G
-                  </h1>
-                </div>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '6px' }}>
+                <h1 style={{
+                  fontFamily: '"DM Serif Display", Georgia, serif',
+                  color: '#e8a838',
+                  fontSize: 'clamp(1.1rem, 4vw, 1.6rem)',
+                  fontWeight: 700,
+                  lineHeight: 1.2,
+                  margin: 0,
+                }}>
+                  Latihan Soal Farmako 2G
+                </h1>
 
-                {/* Right side: tracker + mute */}
+                {/* Right side: tracker only (mute dipindah ke mode bar) */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   {quizMode === 'biasa' && biasaActive && (
                     <div style={{ textAlign: 'right', minWidth: '70px' }}>
@@ -417,23 +415,6 @@ export default function Quiz() {
                       <div style={{ color: '#6e7681', fontSize: '0.65rem' }}>soal</div>
                     </div>
                   )}
-                  <button
-                    onClick={() => setIsMuted(m => !m)}
-                    title={isMuted ? 'Nyalakan suara' : 'Matikan suara'}
-                    style={{
-                      background: 'none',
-                      border: '1px solid #30363d',
-                      borderRadius: '6px',
-                      padding: '5px 8px',
-                      cursor: 'pointer',
-                      color: isMuted ? '#6e7681' : '#e8a838',
-                      fontSize: '1rem',
-                      lineHeight: 1,
-                      flexShrink: 0,
-                    }}
-                  >
-                    {isMuted ? '🔇' : '🔊'}
-                  </button>
                 </div>
               </div>
             </div>
@@ -469,6 +450,25 @@ export default function Quiz() {
                 fontSize: '0.8rem',
               }}>▲</span>
               {headerHidden ? 'Tampilkan' : 'Sembunyikan'}
+            </button>
+
+            {/* Mute button — always visible di mode bar */}
+            <button
+              onClick={() => setIsMuted(m => !m)}
+              title={isMuted ? 'Nyalakan suara' : 'Matikan suara'}
+              style={{
+                background: 'none',
+                border: `1px solid ${isMuted ? '#30363d' : '#e8a83860'}`,
+                borderRadius: '6px',
+                padding: '4px 8px',
+                cursor: 'pointer',
+                color: isMuted ? '#6e7681' : '#e8a838',
+                fontSize: '1rem',
+                lineHeight: 1,
+                flexShrink: 0,
+              }}
+            >
+              {isMuted ? '🔇' : '🔊'}
             </button>
 
             {(['biasa', 'tentamen'] as const).map(m => (
