@@ -206,7 +206,7 @@ export default function Quiz() {
   // ── Tentamen: timer countdown ──
   useEffect(() => {
     if (quizMode !== 'tentamen' || tentamenState !== 'running' || qPhase !== 'answering') return
-    // Bekicot = no timer
+    // Bekicot = 5-7 hari kerja
     if (tentamenDifficulty === 'bekicot') return
     if (timeLeft === 0) {
       setTentamenAnswers(prev => { const n = [...prev]; n[currentIdx] = 'skipped'; return n })
