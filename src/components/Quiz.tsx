@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef, type CSSProperties } from 'react'
+import { useState, useEffect, useCallback, useRef, useMemo, type CSSProperties } from 'react'
 import {
   CheckCircle, XCircle, BookOpen, Trophy,
   Filter, Shuffle, RotateCcw, ChevronRight, ImageIcon,
@@ -54,8 +54,20 @@ function shuffleArray<T>(arr: T[]): T[] {
 // ── LocalStorage (Mode Biasa — persists across refresh & tab close) ────────────
 
 const LS_KEY = 'farmako_quiz_biasa_progress'
+const LOAD_BATCH = 15 // jumlah soal yang dimuat sekali render/klik "Lebih banyak"
 
+// answersMap disimpan per-id soal (bukan per-index), sehingga jawaban yang
+// dikerjakan di kategori manapun tetap konsisten saat dilihat dari kategori
+// "Semua" maupun kategori lain — switch kategori tidak pernah reset progres.
 interface SavedBiasaState {
+  selectedCategory: string
+  shuffleOn: boolean
+  answersMap: Record<string, AnswerState>
+}
+
+// Format lama (sebelum refactor answersMap) — dipakai untuk migrasi otomatis
+// agar progres lama milik user tidak hilang.
+interface LegacySavedBiasaState {
   selectedCategory: string
   shuffleOn: boolean
   activeQuestions: Question[]
@@ -65,7 +77,27 @@ interface SavedBiasaState {
 function loadBiasa(): SavedBiasaState | null {
   try {
     const raw = localStorage.getItem(LS_KEY)
-    return raw ? (JSON.parse(raw) as SavedBiasaState) : null
+    if (!raw) return null
+    const parsed = JSON.parse(raw)
+    if (parsed && typeof parsed === 'object' && 'answersMap' in parsed) {
+      return parsed as SavedBiasaState
+    }
+    // Migrasi dari format lama (array activeQuestions + answers sejajar index)
+    const legacy = parsed as LegacySavedBiasaState
+    if (legacy && Array.isArray(legacy.activeQuestions) && Array.isArray(legacy.answers)) {
+      const answersMap: Record<string, AnswerState> = {}
+      legacy.activeQuestions.forEach((q, i) => {
+        if (legacy.answers[i] !== null && legacy.answers[i] !== undefined) {
+          answersMap[q.id] = legacy.answers[i]
+        }
+      })
+      return {
+        selectedCategory: legacy.selectedCategory ?? 'Semua',
+        shuffleOn: legacy.shuffleOn ?? false,
+        answersMap,
+      }
+    }
+    return null
   } catch {
     return null
   }
@@ -91,11 +123,16 @@ export default function Quiz() {
   const [headerHidden, setHeaderHidden] = useState(false)
 
   // Mode Biasa state — loaded from localStorage on mount
-  const [biasaActive, setBiasaActive]             = useState(false) // true = running biasa
+  const [biasaLoaded, setBiasaLoaded]             = useState(false) // true once restore-from-storage pass has run
   const [biasaCategory, setBiasaCategory]         = useState('Semua')
   const [biasaShuffleOn, setBiasaShuffleOn]       = useState(false)
-  const [biasaQuestions, setBiasaQuestions]       = useState<Question[]>([])
-  const [biasaAnswers, setBiasaAnswers]           = useState<AnswerState[]>([])
+  // Jawaban disimpan per-id soal (global, lintas kategori) — bukan per-index
+  // dari list yang sedang difilter. Ini yang membuat progres "Semua" selalu
+  // ikut mencatat apapun yang dikerjakan dari kategori lain.
+  const [biasaAnswersMap, setBiasaAnswersMap]     = useState<Record<string, AnswerState>>({})
+  // Pagination — hanya render N soal pertama dulu agar tidak lag, terutama
+  // di kategori "Semua" yang soalnya banyak.
+  const [biasaVisibleCount, setBiasaVisibleCount] = useState(LOAD_BATCH)
 
   // Mode Tentamen state — ephemeral, no storage
   const [tentamenState, setTentamenState]         = useState<AppState>('setup')
@@ -170,38 +207,25 @@ export default function Quiz() {
   useEffect(() => {
     if (questions.length === 0) return
     const saved = loadBiasa()
-    if (saved && saved.activeQuestions.length > 0) {
-      setBiasaCategory(saved.selectedCategory)
-      setBiasaShuffleOn(saved.shuffleOn)
-      setBiasaQuestions(saved.activeQuestions)
-      setBiasaAnswers(saved.answers)
-      setBiasaActive(true)
-    } else {
-      // Auto-start biasa mode with default settings
-      autoStartBiasa(questions, 'Semua', false)
+    if (saved) {
+      setBiasaCategory(saved.selectedCategory || 'Semua')
+      setBiasaShuffleOn(!!saved.shuffleOn)
+      setBiasaAnswersMap(saved.answersMap || {})
     }
+    setBiasaVisibleCount(LOAD_BATCH)
+    setBiasaLoaded(true)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questions])
 
-  function autoStartBiasa(allQs: Question[], cat: string, shuffle: boolean) {
-    const base = cat === 'Semua' ? allQs : allQs.filter(q => q.category === cat)
-    const qs = shuffle ? shuffleArray(base) : base
-    if (!qs.length) return
-    setBiasaQuestions(qs)
-    setBiasaAnswers(new Array(qs.length).fill(null))
-    setBiasaActive(true)
-  }
-
   // ── Persist biasa state to localStorage whenever it changes ──
   useEffect(() => {
-    if (!biasaActive || biasaQuestions.length === 0) return
+    if (!biasaLoaded) return
     saveBiasa({
       selectedCategory: biasaCategory,
       shuffleOn: biasaShuffleOn,
-      activeQuestions: biasaQuestions,
-      answers: biasaAnswers,
+      answersMap: biasaAnswersMap,
     })
-  }, [biasaActive, biasaCategory, biasaShuffleOn, biasaQuestions, biasaAnswers])
+  }, [biasaLoaded, biasaCategory, biasaShuffleOn, biasaAnswersMap])
 
   // ── Tentamen: timer countdown ──
   useEffect(() => {
@@ -233,59 +257,90 @@ export default function Quiz() {
   }, [quizMode, tentamenState, qPhase, currentIdx, tentamenQuestions.length])
 
   // ── Derived ──
-  const buildQuestions = useCallback((cat: string, shuffle: boolean, allQs: Question[]): Question[] => {
-    const base = cat === 'Semua' ? allQs : allQs.filter(q => q.category === cat)
-    return shuffle ? shuffleArray(base) : base
-  }, [])
-
   const categories = ['Semua', ...Array.from(new Set(questions.map(q => q.category))).sort()]
 
+  // Simpan urutan soal yang sudah di-shuffle per-kategori agar tidak berubah
+  // saat user ganti kategori lalu kembali. Key = `${cat}__shuffle`.
+  const shuffleOrderCache = useRef<Record<string, Question[]>>({})
+
+  // Full (unpaginated) list of soal untuk kategori + shuffle yang sedang aktif.
+  // Jika shuffle ON, pakai cache sehingga urutan stabil saat ganti kategori & kembali.
+  // Jawaban tidak pernah direset di sini — disimpan terpisah di biasaAnswersMap.
+  const biasaAllQuestions = useMemo(() => {
+    const base = biasaCategory === 'Semua' ? questions : questions.filter(q => q.category === biasaCategory)
+    if (!biasaShuffleOn) {
+      // Non-shuffle: hapus cache shuffle untuk kategori ini agar fresh kalau shuffle dinyalakan lagi
+      delete shuffleOrderCache.current[`${biasaCategory}__shuffle`]
+      return base
+    }
+    const cacheKey = `${biasaCategory}__shuffle`
+    const cached = shuffleOrderCache.current[cacheKey]
+    // Cek apakah cache masih valid: set id harus sama dengan soal aktif
+    const baseIds = new Set(base.map(q => q.id))
+    if (cached && cached.length === base.length && cached.every(q => baseIds.has(q.id))) {
+      return cached
+    }
+    // Buat shuffle baru dan simpan ke cache
+    const shuffled = shuffleArray(base)
+    shuffleOrderCache.current[cacheKey] = shuffled
+    return shuffled
+  }, [biasaCategory, biasaShuffleOn, questions])
+
+  // Subset yang benar-benar dirender saat ini (pagination, hindari lag).
+  const biasaQuestions = useMemo(
+    () => biasaAllQuestions.slice(0, biasaVisibleCount),
+    [biasaAllQuestions, biasaVisibleCount]
+  )
+
   // ── Mode Biasa handlers ──
+  // Reset = satu-satunya cara progres biasa benar-benar dihapus (semua kategori).
   const handleResetBiasa = useCallback(() => {
     clearBiasa()
-    const qs = buildQuestions(biasaCategory, biasaShuffleOn, questions)
-    if (!qs.length) return
-    setBiasaQuestions(qs)
-    setBiasaAnswers(new Array(qs.length).fill(null))
-    setBiasaActive(true)
-  }, [biasaCategory, biasaShuffleOn, buildQuestions, questions])
+    setBiasaAnswersMap({})
+    setBiasaVisibleCount(LOAD_BATCH)
+    // Hapus semua cache shuffle agar urutan baru saat mulai lagi
+    shuffleOrderCache.current = {}
+  }, [])
 
-  const handleBiasaFilterChange = (cat: string) => {
+  const handleBiasaFilterChange = useCallback((cat: string, currentAnswersMap: Record<string, AnswerState>, allQs: Question[]) => {
     setBiasaCategory(cat)
-    const qs = buildQuestions(cat, biasaShuffleOn, questions)
-    if (!qs.length) return
-    setBiasaQuestions(qs)
-    setBiasaAnswers(new Array(qs.length).fill(null))
-    clearBiasa()
-  }
+    // Hitung berapa soal di kategori ini yang sudah dijawab, lalu tampilkan
+    // minimal sebanyak itu + satu batch ke depan — sehingga soal yang sudah
+    // dikerjakan tetap terlihat dan tidak "menghilang" saat kembali ke kategori.
+    const catQuestions = cat === 'Semua' ? allQs : allQs.filter(q => q.category === cat)
+    const answeredInCat = catQuestions.filter(q => currentAnswersMap[q.id] !== undefined && currentAnswersMap[q.id] !== null).length
+    const minVisible = Math.max(answeredInCat + LOAD_BATCH, LOAD_BATCH)
+    setBiasaVisibleCount(Math.min(minVisible, catQuestions.length || LOAD_BATCH))
+  }, [])
 
   const handleBiasaShuffleToggle = () => {
-    const next = !biasaShuffleOn
-    setBiasaShuffleOn(next)
-    const qs = buildQuestions(biasaCategory, next, questions)
-    if (!qs.length) return
-    setBiasaQuestions(qs)
-    setBiasaAnswers(new Array(qs.length).fill(null))
-    clearBiasa()
+    setBiasaShuffleOn(p => !p)
+    // Saat toggle shuffle, reset visibleCount ke batch pertama
+    // tapi jangan reset jawaban
+    setBiasaVisibleCount(LOAD_BATCH)
   }
 
-  const biasaAnswersRef = useRef<AnswerState[]>([])
-  useEffect(() => { biasaAnswersRef.current = biasaAnswers }, [biasaAnswers])
+  const handleBiasaLoadMore = useCallback(() => {
+    setBiasaVisibleCount(p => Math.min(p + LOAD_BATCH, biasaAllQuestions.length))
+  }, [biasaAllQuestions.length])
 
-  const handleAnswerBiasa = useCallback((qIdx: number, optIdx: number) => {
+  const biasaAnswersMapRef = useRef<Record<string, AnswerState>>({})
+  useEffect(() => { biasaAnswersMapRef.current = biasaAnswersMap }, [biasaAnswersMap])
+
+  const handleAnswerBiasa = useCallback((qId: string, optIdx: number, correct: number) => {
     // Check BEFORE setState so playSound is called outside the updater
-    if (biasaAnswersRef.current[qIdx] !== null) return
-    setBiasaAnswers(prev => {
-      if (prev[qIdx] !== null) return prev
-      const n = [...prev]; n[qIdx] = optIdx
-      return n
+    if (biasaAnswersMapRef.current[qId] !== undefined && biasaAnswersMapRef.current[qId] !== null) return
+    setBiasaAnswersMap(prev => {
+      if (prev[qId] !== undefined && prev[qId] !== null) return prev
+      return { ...prev, [qId]: optIdx }
     })
-    playSound(optIdx === biasaQuestions[qIdx]?.correct)
-  }, [biasaQuestions, playSound])
+    playSound(optIdx === correct)
+  }, [playSound])
 
   // ── Mode Tentamen handlers ──
   const handleStartTentamen = useCallback((difficulty: TentamenDifficulty) => {
-    const qs = buildQuestions(tentamenCategory, tentamenShuffleOn, questions)
+    const base = tentamenCategory === 'Semua' ? questions : questions.filter(q => q.category === tentamenCategory)
+    const qs = tentamenShuffleOn ? shuffleArray(base) : base
     if (!qs.length) return
     setTentamenDifficulty(difficulty)
     setTentamenQuestions(qs)
@@ -294,7 +349,7 @@ export default function Quiz() {
     setTimeLeft(DIFFICULTY_CONFIG[difficulty].timerSeconds)
     setQPhase('answering')
     setTentamenState('running')
-  }, [buildQuestions, tentamenCategory, tentamenShuffleOn, questions])
+  }, [tentamenCategory, tentamenShuffleOn, questions])
 
   const handleResetTentamen = useCallback(() => {
     setTentamenState('setup')
@@ -341,9 +396,12 @@ export default function Quiz() {
   }
 
   // ── Computed for display ──
-  const biasaAnsweredCount = biasaAnswers.filter(a => a !== null).length
-  const biasaCorrectCount  = biasaAnswers.filter((a, i) => typeof a === 'number' && a === biasaQuestions[i]?.correct).length
-  const tentamenQCount     = buildQuestions(tentamenCategory, false, questions).length
+  // Dihitung dari biasaAllQuestions (seluruh soal kategori aktif), bukan hanya
+  // yang sedang dirender — supaya tracker tetap akurat walau sebagian soal
+  // belum di-"Lebih banyak"-kan.
+  const biasaAnsweredCount = biasaAllQuestions.filter(q => biasaAnswersMap[q.id] !== undefined && biasaAnswersMap[q.id] !== null).length
+  const biasaCorrectCount  = biasaAllQuestions.filter(q => biasaAnswersMap[q.id] === q.correct).length
+  const tentamenQCount = (tentamenCategory === 'Semua' ? questions : questions.filter(q => q.category === tentamenCategory)).length
 
   return (
     <div style={{ backgroundColor: '#0d1117', minHeight: '100vh' }}>
@@ -387,7 +445,7 @@ export default function Quiz() {
 
                 {/* Right side: tracker only (mute dipindah ke mode bar) */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  {quizMode === 'biasa' && biasaActive && (
+                  {quizMode === 'biasa' && biasaLoaded && (
                     <div style={{ textAlign: 'right', minWidth: '70px' }}>
                       <div style={{
                         fontFamily: '"JetBrains Mono", monospace',
@@ -395,7 +453,7 @@ export default function Quiz() {
                         fontSize: '0.9rem',
                         fontWeight: 700,
                       }}>
-                        {biasaAnsweredCount}/{biasaQuestions.length}
+                        {biasaAnsweredCount}/{biasaAllQuestions.length}
                       </div>
                       <div style={{ color: '#6e7681', fontSize: '0.65rem', lineHeight: 1.3 }}>
                         dijawab · benar <span style={{ color: '#4ade80' }}>{biasaCorrectCount}</span>
@@ -493,7 +551,7 @@ export default function Quiz() {
             ))}
 
             {/* Reset button — only in biasa mode */}
-            {quizMode === 'biasa' && biasaActive && (
+            {quizMode === 'biasa' && biasaLoaded && (
               <button
                 onClick={handleResetBiasa}
                 style={{
@@ -578,7 +636,7 @@ export default function Quiz() {
                 <button
                   key={cat}
                   onClick={() => {
-                    if (quizMode === 'biasa') handleBiasaFilterChange(cat)
+                    if (quizMode === 'biasa') handleBiasaFilterChange(cat, biasaAnswersMap, questions)
                     else setTentamenCategory(cat)
                   }}
                   style={{
@@ -631,14 +689,19 @@ export default function Quiz() {
       <main className="max-w-3xl mx-auto px-4 py-6">
 
         {/* ── Mode Biasa ── */}
-        {quizMode === 'biasa' && biasaActive && (
+        {quizMode === 'biasa' && biasaLoaded && (
           <BiasaMode
             questions={biasaQuestions}
-            answers={biasaAnswers}
+            totalCount={biasaAllQuestions.length}
+            answeredCount={biasaAnsweredCount}
+            correctCount={biasaCorrectCount}
+            answersMap={biasaAnswersMap}
             onAnswer={handleAnswerBiasa}
+            hasMore={biasaVisibleCount < biasaAllQuestions.length}
+            onLoadMore={handleBiasaLoadMore}
           />
         )}
-        {quizMode === 'biasa' && !biasaActive && (
+        {quizMode === 'biasa' && !biasaLoaded && (
           <div style={{ color: '#6e7681', textAlign: 'center', marginTop: '60px', fontSize: '0.88rem' }}>
             Memuat soal…
           </div>
@@ -800,15 +863,19 @@ function SetupCard({ questionCount, onStart, difficulty, onDifficultyChange }: {
 
 // ── BiasaMode ──────────────────────────────────────────────────────────────────
 
-function BiasaMode({ questions, answers, onAnswer }: {
-  questions: Question[]
-  answers: AnswerState[]
-  onAnswer: (qIdx: number, optIdx: number) => void
+function BiasaMode({ questions, totalCount, answeredCount, correctCount, answersMap, onAnswer, hasMore, onLoadMore }: {
+  questions: Question[]            // subset yang dirender saat ini (sudah dipaginasi)
+  totalCount: number               // total soal di kategori aktif (semua, termasuk yang belum dimuat)
+  answeredCount: number
+  correctCount: number
+  answersMap: Record<string, AnswerState>
+  onAnswer: (qId: string, optIdx: number, correct: number) => void
+  hasMore: boolean
+  onLoadMore: () => void
 }) {
-  const answeredCount = answers.filter(a => a !== null).length
-  const correctCount  = answers.filter((a, i) => typeof a === 'number' && a === questions[i]?.correct).length
-  const allDone       = answeredCount === questions.length && questions.length > 0
-  const pct           = questions.length > 0 ? Math.round((answeredCount / questions.length) * 100) : 0
+  const allDone = answeredCount === totalCount && totalCount > 0
+  const pct     = totalCount > 0 ? Math.round((answeredCount / totalCount) * 100) : 0
+  const remaining = totalCount - questions.length
 
   return (
     <div>
@@ -825,7 +892,7 @@ function BiasaMode({ questions, answers, onAnswer }: {
             Sudah dijawab:{' '}
             <span style={{ color: '#e8a838', fontFamily: '"JetBrains Mono", monospace', fontWeight: 700 }}>{answeredCount}</span>
             {' '}/ Total:{' '}
-            <span style={{ color: '#c9d1d9', fontFamily: '"JetBrains Mono", monospace', fontWeight: 700 }}>{questions.length}</span>
+            <span style={{ color: '#c9d1d9', fontFamily: '"JetBrains Mono", monospace', fontWeight: 700 }}>{totalCount}</span>
           </span>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <span style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.78rem' }}>
@@ -868,13 +935,13 @@ function BiasaMode({ questions, answers, onAnswer }: {
           <div>
             <span style={{ color: '#e8a838', fontWeight: 700, fontSize: '0.88rem' }}>Selesai! </span>
             <span style={{ color: '#c9d1d9', fontSize: '0.82rem' }}>
-              Skor akhir: {correctCount}/{questions.length} ({Math.round((correctCount / questions.length) * 100)}%)
+              Skor akhir: {correctCount}/{totalCount} ({Math.round((correctCount / totalCount) * 100)}%)
             </span>
           </div>
         </div>
       )}
 
-      {/* Question list */}
+      {/* Question list — hanya soal yang sudah dimuat (lihat tombol "Lebih banyak" di bawah) */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
         {questions.map((q, idx) => (
           <div
@@ -885,12 +952,41 @@ function BiasaMode({ questions, answers, onAnswer }: {
             <QuestionCard
               q={q}
               qNum={idx + 1}
-              answer={answers[idx]}
-              onAnswer={optIdx => onAnswer(idx, optIdx)}
+              answer={answersMap[q.id] ?? null}
+              onAnswer={optIdx => onAnswer(q.id, optIdx, q.correct)}
             />
           </div>
         ))}
       </div>
+
+      {/* Lebih banyak — load soal sisanya, 15 per klik, biar tidak lag */}
+      {hasMore && (
+        <button
+          onClick={onLoadMore}
+          style={{
+            width: '100%',
+            marginTop: '20px',
+            padding: '13px',
+            backgroundColor: '#161b22',
+            border: '1px solid #30363d',
+            color: '#e8a838',
+            fontWeight: 600,
+            fontSize: '0.85rem',
+            borderRadius: '12px',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px',
+            transition: 'all 0.15s',
+          }}
+          onMouseEnter={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = '#e8a83860' }}
+          onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = '#30363d' }}
+        >
+          <ChevronRight style={{ width: '15px', height: '15px' }} />
+          Lebih banyak ({Math.min(LOAD_BATCH, remaining)})
+        </button>
+      )}
     </div>
   )
 }
