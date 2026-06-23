@@ -396,11 +396,13 @@ export default function Quiz() {
   }
 
   // ── Computed for display ──
-  // Dihitung dari biasaAllQuestions (seluruh soal kategori aktif), bukan hanya
-  // yang sedang dirender — supaya tracker tetap akurat walau sebagian soal
-  // belum di-"Lebih banyak"-kan.
-  const biasaAnsweredCount = biasaAllQuestions.filter(q => biasaAnswersMap[q.id] !== undefined && biasaAnswersMap[q.id] !== null).length
-  const biasaCorrectCount  = biasaAllQuestions.filter(q => biasaAnswersMap[q.id] === q.correct).length
+  // biasaAnsweredCount/biasaCorrectCount selalu dihitung dari SEMUA soal (questions)
+  // — header tracker dan kategori "Semua" selalu mencerminkan total progres lintas kategori.
+  const biasaAnsweredCount = questions.filter(q => biasaAnswersMap[q.id] !== undefined && biasaAnswersMap[q.id] !== null).length
+  const biasaCorrectCount  = questions.filter(q => biasaAnswersMap[q.id] === q.correct).length
+  // Per-kategori aktif — untuk progress bar di dalam BiasaMode
+  const biasaCatAnsweredCount = biasaAllQuestions.filter(q => biasaAnswersMap[q.id] !== undefined && biasaAnswersMap[q.id] !== null).length
+  const biasaCatCorrectCount  = biasaAllQuestions.filter(q => biasaAnswersMap[q.id] === q.correct).length
   const tentamenQCount = (tentamenCategory === 'Semua' ? questions : questions.filter(q => q.category === tentamenCategory)).length
 
   return (
@@ -453,7 +455,7 @@ export default function Quiz() {
                         fontSize: '0.9rem',
                         fontWeight: 700,
                       }}>
-                        {biasaAnsweredCount}/{biasaAllQuestions.length}
+                        {biasaAnsweredCount}/{questions.length}
                       </div>
                       <div style={{ color: '#6e7681', fontSize: '0.65rem', lineHeight: 1.3 }}>
                         dijawab · benar <span style={{ color: '#4ade80' }}>{biasaCorrectCount}</span>
@@ -693,8 +695,8 @@ export default function Quiz() {
           <BiasaMode
             questions={biasaQuestions}
             totalCount={biasaAllQuestions.length}
-            answeredCount={biasaAnsweredCount}
-            correctCount={biasaCorrectCount}
+            answeredCount={biasaCatAnsweredCount}
+            correctCount={biasaCatCorrectCount}
             answersMap={biasaAnswersMap}
             onAnswer={handleAnswerBiasa}
             hasMore={biasaVisibleCount < biasaAllQuestions.length}
