@@ -513,11 +513,11 @@
     "id": "H1",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Paket Wedang Uwuh",
-      "Daun Stevia",
-      "Daun Binahong",
-      "Pasak Bumi",
-      "Kayu Manis"
+      "Paket Wedang Uwuh (Campuran Simplisia Herbal)",
+      "Bunga Cengkeh (Syzygium aromaticum Flos)",
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Serbuk/Bubuk Jahe (Zingiber officinale Pulvis)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Paket Wedang Uwuh. Termasuk dalam kelompok Simplisia Serbuk.",
@@ -528,14 +528,14 @@
     "id": "H2",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jati Cina",
-      "Pasak Bumi",
-      "Daun Jambu",
-      "Kayu Manis",
-      "Daun Binahong"
+      "Akar Wangi (Vetiveria zizanioides Rhizoma)",
+      "Pasak Bumi (Eurycoma longifolia Radix)",
+      "Pasak Bumi (Eurycoma longifolia Rhizoma)",
+      "Akar Wangi (Vetiveria zizanioides Radix)",
+      "Pasak Bumi (Eurycoma longifolia Folium)"
     ],
     "correct": 1,
-    "explanation": "Gambar ini menunjukkan Pasak Bumi. Termasuk dalam kelompok Simplisia Serbuk.",
+    "explanation": "Gambar ini menunjukkan Pasak Bumi (Radix). Termasuk dalam kelompok Simplisia Serbuk.",
     "category": "Identifikasi Obat Herbal",
     "img": "6_Simplisia_Serbuk/Pasak_bumi/Pasak Bumi.jpg"
   },
@@ -543,14 +543,14 @@
     "id": "H3",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Serbuk Kunyit",
-      "Daun Sirih Cina",
-      "Daun Mint",
-      "Serbuk Jahe",
-      "Pasak Bumi"
+      "Serbuk/Bubuk Jahe (Zingiber officinale Folium)",
+      "Serbuk/Bubuk Jahe (Zingiber officinale Rhizoma)",
+      "Serbuk/Bubuk Temulawak (Curcuma xanthorrhiza Pulvis)",
+      "Serbuk/Bubuk Jahe (Zingiber officinale Pulvis)",
+      "Serbuk/Bubuk Kunyit (Curcuma longa Pulvis)"
     ],
     "correct": 3,
-    "explanation": "Gambar ini menunjukkan Serbuk Jahe. Termasuk dalam kelompok Simplisia Serbuk.",
+    "explanation": "Gambar ini menunjukkan Serbuk Jahe (Pulvis). Termasuk dalam kelompok Simplisia Serbuk.",
     "category": "Identifikasi Obat Herbal",
     "img": "6_Simplisia_Serbuk/Serbuk_jahe/Serbuk jahe.jpg"
   },
@@ -558,11 +558,11 @@
     "id": "H4",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Serbuk Jahe",
-      "Daun Jati Belanda",
-      "Serbuk Kunyit",
-      "Daun Jati Cina",
-      "Daun Sambiloto"
+      "Serbuk/Bubuk Kunyit (Curcuma longa Folium)",
+      "Serbuk/Bubuk Temulawak (Curcuma xanthorrhiza Pulvis)",
+      "Serbuk/Bubuk Kunyit (Curcuma longa Pulvis)",
+      "Serbuk/Bubuk Jahe (Zingiber officinale Pulvis)",
+      "Serbuk/Bubuk Kunyit (Curcuma longa Rhizoma)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Serbuk Kunyit. Termasuk dalam kelompok Simplisia Serbuk.",
@@ -573,11 +573,11 @@
     "id": "H5",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Binahong",
-      "Daun Jambu",
-      "Batang Lidah Buaya",
-      "Daun Kemangi",
-      "Jahe Merah"
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Binahong. Termasuk dalam kelompok Simplisia Daun.",
@@ -588,11 +588,11 @@
     "id": "H6",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sirih",
-      "Daun Kumis Kucing",
-      "Daun Binahong",
-      "Daun Sirih Cina",
-      "Batang Sereh/Serai"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Daun Binahong. Termasuk dalam kelompok Simplisia Daun.",
@@ -603,11 +603,11 @@
     "id": "H7",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Binahong",
-      "Kunyit",
-      "Laos/Galangal",
-      "Daun Jambu",
-      "Kencur"
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Pandan (Pandanus amaryllifolius Folium)",
+      "Daun Sirih (Piper betle Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Binahong. Termasuk dalam kelompok Simplisia Daun.",
@@ -618,11 +618,11 @@
     "id": "H8",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jambu",
-      "Jahe Merah",
-      "Daun Sirih",
-      "Daun Pandan",
-      "Daun Meniran"
+      "Daun Jambu Biji (Psidium guajava Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Jambu. Termasuk dalam kelompok Simplisia Daun.",
@@ -633,11 +633,11 @@
     "id": "H9",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jambu",
-      "Daun Kemangi",
-      "Kencur",
-      "Daun Pandan",
-      "Daun Jati Cina"
+      "Daun Jambu Biji (Psidium guajava Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Jambu. Termasuk dalam kelompok Simplisia Daun.",
@@ -648,11 +648,11 @@
     "id": "H10",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sambiloto",
-      "Daun Jati Cina",
-      "Daun Salam",
-      "Laos/Galangal",
-      "Daun Jarak"
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Jarak (Jatropha curcas Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Jarak. Termasuk dalam kelompok Simplisia Daun.",
@@ -663,11 +663,11 @@
     "id": "H11",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kayu Manis",
-      "Daun Meniran",
-      "Daun Jati Belanda",
-      "Kunyit",
-      "Daun Jambu"
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Daun Jati Belanda. Termasuk dalam kelompok Simplisia Daun.",
@@ -678,11 +678,11 @@
     "id": "H12",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Batang Lidah Buaya",
-      "Daun Jati Belanda",
-      "Buah Jambu",
-      "Daun Sambiloto",
-      "Daun Jati Cina"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Jati Cina (Senna alexandrina Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Jati Cina. Termasuk dalam kelompok Simplisia Daun.",
@@ -693,11 +693,11 @@
     "id": "H13",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Batang Lidah Buaya",
-      "Daun Mint",
-      "Kunyit Putih",
-      "Daun Jati Cina",
-      "Kayu Secang"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Jati Cina (Senna alexandrina Folium)",
+      "Daun Kelor (Moringa oleifera Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Jati Cina. Termasuk dalam kelompok Simplisia Daun.",
@@ -708,11 +708,11 @@
     "id": "H14",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jati Cina",
-      "Temulawak",
-      "Laos/Galangal",
-      "Daun Salam",
-      "Batang Sereh/Serai"
+      "Daun Jati Cina (Senna alexandrina Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Jati Cina. Termasuk dalam kelompok Simplisia Daun.",
@@ -723,11 +723,11 @@
     "id": "H15",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Jahe Merah",
-      "Daun Jarak",
-      "Daun Jambu",
-      "Daun Katuk",
-      "Akar Wangi"
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Pandan (Pandanus amaryllifolius Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Katuk. Termasuk dalam kelompok Simplisia Daun.",
@@ -738,11 +738,11 @@
     "id": "H16",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Katuk",
-      "Kencur",
-      "Daun Mint",
-      "Daun Jarak",
-      "Laos/Galangal"
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Pandan (Pandanus amaryllifolius Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Katuk. Termasuk dalam kelompok Simplisia Daun.",
@@ -753,11 +753,11 @@
     "id": "H17",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Laos/Galangal",
-      "Daun Kelor",
-      "Daun Jati Belanda",
-      "Daun Sambiloto",
-      "Daun Meniran"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Jati Cina (Senna alexandrina Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
@@ -768,11 +768,11 @@
     "id": "H18",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kayu Secang",
-      "Kunyit Putih",
-      "Daun Salam",
-      "Daun Katuk",
-      "Daun Kelor"
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Jati Cina (Senna alexandrina Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
@@ -783,11 +783,11 @@
     "id": "H19",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Salam",
-      "Daun Kemangi",
-      "Akar Wangi",
-      "Daun Meniran",
-      "Daun Kelor"
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Jati Cina (Senna alexandrina Folium)",
+      "Daun Kelor (Moringa oleifera Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
@@ -798,11 +798,11 @@
     "id": "H20",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kayu Manis",
-      "Daun Kelor",
-      "Kayu Secang",
-      "Daun Katuk",
-      "Batang Lidah Buaya"
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Jati Cina (Senna alexandrina Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Kelor. Termasuk dalam kelompok Simplisia Daun.",
@@ -813,11 +813,11 @@
     "id": "H21",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Katuk",
-      "Daun Sirih Cina",
-      "Daun Kemangi",
-      "Daun Sambiloto",
-      "Daun Meniran"
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Kemangi (Ocimum basilicum Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Kelor (Moringa oleifera Folium)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Daun Kemangi. Termasuk dalam kelompok Simplisia Daun.",
@@ -828,11 +828,11 @@
     "id": "H22",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Kumis Kucing",
-      "Daun Kemangi",
-      "Akar Wangi",
-      "Daun Pandan",
-      "Kunyit Putih"
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Kemangi (Ocimum basilicum Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Sirih (Piper betle Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Kemangi. Termasuk dalam kelompok Simplisia Daun.",
@@ -843,11 +843,11 @@
     "id": "H23",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Kumis Kucing",
-      "Daun Kemangi",
-      "Kunyit Putih",
-      "Daun Jambu",
-      "Kunyit"
+      "Daun Kumis Kucing (Orthosiphon aristatus Folium)",
+      "Daun Kemangi (Ocimum basilicum Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Kumis Kucing. Termasuk dalam kelompok Simplisia Daun.",
@@ -858,11 +858,11 @@
     "id": "H24",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sambiloto",
-      "Daun Meniran",
-      "Daun Jarak",
-      "Daun Kelor",
-      "Daun Kumis Kucing"
+      "Daun Meniran (Phyllanthus niruri Folium)",
+      "Daun Kemangi (Ocimum basilicum Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Kumis Kucing (Orthosiphon aristatus Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Kumis Kucing. Termasuk dalam kelompok Simplisia Daun.",
@@ -873,11 +873,11 @@
     "id": "H25",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Temulawak",
-      "Daun Meniran",
-      "Jahe Merah",
-      "Daun Pandan",
-      "Daun Kelor"
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Meniran. Termasuk dalam kelompok Simplisia Daun.",
@@ -888,11 +888,11 @@
     "id": "H26",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sambiloto",
-      "Daun Meniran",
-      "Temulawak",
-      "Buah Jambu",
-      "Kayu Secang"
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Meniran. Termasuk dalam kelompok Simplisia Daun.",
@@ -903,11 +903,11 @@
     "id": "H27",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jati Cina",
-      "Daun Kumis Kucing",
-      "Daun Kemangi",
-      "Jahe Putih",
-      "Daun Meniran"
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Kumis Kucing (Orthosiphon aristatus Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Meniran. Termasuk dalam kelompok Simplisia Daun.",
@@ -915,44 +915,14 @@
     "img": "1_Daun/Daun_meniran/Meniran kering.jpg"
   },
   {
-    "id": "H28",
-    "question": "Sediaan obat herbal apakah ini?",
-    "options": [
-      "Batang Lidah Buaya",
-      "Daun Kumis Kucing",
-      "Daun Mint",
-      "Jahe Putih",
-      "Batang Sereh/Serai"
-    ],
-    "correct": 2,
-    "explanation": "Gambar ini menunjukkan Daun Mint. Termasuk dalam kelompok Simplisia Daun.",
-    "category": "Identifikasi Obat Herbal",
-    "img": "1_Daun/Daun_mint/Daun mint 1.jpeg"
-  },
-  {
-    "id": "H29",
-    "question": "Sediaan obat herbal apakah ini?",
-    "options": [
-      "Temulawak",
-      "Batang Sereh/Serai",
-      "Daun Sambiloto",
-      "Daun Salam",
-      "Daun Mint"
-    ],
-    "correct": 4,
-    "explanation": "Gambar ini menunjukkan Daun Mint. Termasuk dalam kelompok Simplisia Daun.",
-    "category": "Identifikasi Obat Herbal",
-    "img": "1_Daun/Daun_mint/Daun mint 2.jpeg"
-  },
-  {
     "id": "H30",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jati Cina",
-      "Daun Stevia",
-      "Daun Sirsak",
-      "Daun Pandan",
-      "Daun Jarak"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Pandan (Pandanus amaryllifolius Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Pandan. Termasuk dalam kelompok Simplisia Daun.",
@@ -963,11 +933,11 @@
     "id": "H31",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Laos/Galangal",
-      "Daun Jati Belanda",
-      "Daun Jati Cina",
-      "Daun Pandan",
-      "Kayu Secang"
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Pandan (Pandanus amaryllifolius Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Pandan. Termasuk dalam kelompok Simplisia Daun.",
@@ -978,11 +948,11 @@
     "id": "H32",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kunyit",
-      "Daun Salam",
-      "Akar Wangi",
-      "Daun Sirih",
-      "Kayu Manis"
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Salam. Termasuk dalam kelompok Simplisia Daun.",
@@ -993,11 +963,11 @@
     "id": "H33",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Salam",
-      "Daun Sambiloto",
-      "Kayu Manis",
-      "Daun Sirih Cina",
-      "Daun Stevia"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Salam. Termasuk dalam kelompok Simplisia Daun.",
@@ -1008,11 +978,11 @@
     "id": "H34",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Batang Lidah Buaya",
-      "Laos/Galangal",
-      "Daun Binahong",
-      "Daun Salam",
-      "Akar Wangi"
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Jambu Biji (Psidium guajava Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Salam. Termasuk dalam kelompok Simplisia Daun.",
@@ -1023,11 +993,11 @@
     "id": "H35",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Akar Wangi",
-      "Temulawak",
-      "Daun Sambiloto",
-      "Batang Lidah Buaya",
-      "Kencur"
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Kumis Kucing (Orthosiphon aristatus Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Daun Sambiloto. Termasuk dalam kelompok Simplisia Daun.",
@@ -1038,11 +1008,11 @@
     "id": "H36",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sambiloto",
-      "Kencur",
-      "Kayu Secang",
-      "Daun Mint",
-      "Daun Jati Belanda"
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Kumis Kucing (Orthosiphon aristatus Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Sambiloto. Termasuk dalam kelompok Simplisia Daun.",
@@ -1053,11 +1023,11 @@
     "id": "H37",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sirih",
-      "Daun Katuk",
-      "Daun Sirih Cina",
-      "Daun Binahong",
-      "Daun Sambiloto"
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Kumis Kucing (Orthosiphon aristatus Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Sambiloto. Termasuk dalam kelompok Simplisia Daun.",
@@ -1068,11 +1038,11 @@
     "id": "H38",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Stevia",
-      "Kencur",
-      "Daun Katuk",
-      "Daun Sirih",
-      "Buah Jambu"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Sirih. Termasuk dalam kelompok Simplisia Daun.",
@@ -1083,11 +1053,11 @@
     "id": "H39",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Laos/Galangal",
-      "Kayu Secang",
-      "Daun Sirih",
-      "Daun Meniran",
-      "Kunyit Putih"
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Sirih Cina (Peperomia pellucida Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Daun Sirih. Termasuk dalam kelompok Simplisia Daun.",
@@ -1098,11 +1068,11 @@
     "id": "H40",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kayu Manis",
-      "Daun Kelor",
-      "Daun Jati Cina",
-      "Daun Sirih Cina",
-      "Daun Pandan"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Sirih Cina (Peperomia pellucida Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Sirih Cina. Termasuk dalam kelompok Simplisia Daun.",
@@ -1113,11 +1083,11 @@
     "id": "H41",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Batang Lidah Buaya",
-      "Kencur",
-      "Buah Jambu",
-      "Daun Sirih Cina",
-      "Daun Stevia"
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Sirih Cina (Peperomia pellucida Folium)",
+      "Daun Meniran (Phyllanthus niruri Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Sirih Cina. Termasuk dalam kelompok Simplisia Daun.",
@@ -1128,11 +1098,11 @@
     "id": "H42",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kayu Manis",
-      "Daun Mint",
-      "Daun Sirsak",
-      "Daun Binahong",
-      "Daun Sirih Cina"
+      "Daun Salam (Syzygium polyanthum Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sirih (Piper betle Folium)",
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Sirih Cina (Peperomia pellucida Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Sirih Cina. Termasuk dalam kelompok Simplisia Daun.",
@@ -1143,11 +1113,11 @@
     "id": "H43",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sirsak",
-      "Buah Jambu",
-      "Daun Pandan",
-      "Temulawak",
-      "Kunyit Putih"
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Kelor (Moringa oleifera Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
@@ -1158,11 +1128,11 @@
     "id": "H44",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Kemangi",
-      "Daun Sirsak",
-      "Daun Jambu",
-      "Temulawak",
-      "Batang Sereh/Serai"
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Jambu Biji (Psidium guajava Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
@@ -1173,11 +1143,11 @@
     "id": "H45",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jarak",
-      "Jahe Putih",
-      "Daun Sirih Cina",
-      "Kunyit Putih",
-      "Daun Sirsak"
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Binahong (Anredera cordifolia Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
@@ -1188,11 +1158,11 @@
     "id": "H46",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kencur",
-      "Batang Lidah Buaya",
-      "Daun Jati Cina",
-      "Daun Sirsak",
-      "Akar Wangi"
+      "Daun Jambu Biji (Psidium guajava Folium)",
+      "Daun Jati Belanda (Guazuma ulmifolia Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Sirsak (Annona muricata Folium)",
+      "Daun Kelor (Moringa oleifera Folium)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Daun Sirsak. Termasuk dalam kelompok Simplisia Daun.",
@@ -1203,11 +1173,11 @@
     "id": "H47",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Batang Lidah Buaya",
-      "Daun Stevia",
-      "Daun Katuk",
-      "Daun Kumis Kucing",
-      "Daun Sirsak"
+      "Daun Katuk (Sauropus androgynus Folium)",
+      "Daun Stevia (Stevia rebaudiana Folium)",
+      "Daun Kelor (Moringa oleifera Folium)",
+      "Daun Sambiloto (Andrographis paniculata Folium)",
+      "Daun Sirsak (Annona muricata Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Daun Stevia. Termasuk dalam kelompok Simplisia Daun.",
@@ -1218,11 +1188,11 @@
     "id": "H48",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Mint",
-      "Daun Jati Belanda",
-      "Batang Lidah Buaya",
-      "Buah Jambu",
-      "Daun Sirih"
+      "Batang Sereh/Serai (Cymbopogon citratus Caulis)",
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Batang Lidah Buaya (Aloe vera Caulis)",
+      "Batang Sereh/Serai (Cymbopogon nardus Caulis)",
+      "Kayu Manis (Cinnamomum verum Cortex)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Batang Lidah Buaya. Termasuk dalam kelompok Simplisia Batang/Kayu.",
@@ -1233,11 +1203,11 @@
     "id": "H49",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Jahe Merah",
-      "Daun Kelor",
-      "Daun Meniran",
-      "Akar Wangi",
-      "Batang Lidah Buaya"
+      "Batang Sereh/Serai (Cymbopogon nardus Caulis)",
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Batang Sereh/Serai (Cymbopogon citratus Caulis)",
+      "Kayu Manis (Cinnamomum verum Cortex)",
+      "Batang Lidah Buaya (Aloe vera Caulis)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Batang Lidah Buaya. Termasuk dalam kelompok Simplisia Batang/Kayu.",
@@ -1248,11 +1218,11 @@
     "id": "H50",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Pandan",
-      "Batang Sereh/Serai",
-      "Temulawak",
-      "Daun Sambiloto",
-      "Daun Binahong"
+      "Batang Lidah Buaya (Aloe vera Caulis)",
+      "Batang Sereh/Serai (Cymbopogon citratus Caulis)",
+      "Kayu Manis (Cinnamomum verum Cortex)",
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Batang Lidah Buaya (Aloe vera Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Batang Sereh/Serai. Termasuk dalam kelompok Simplisia Batang/Kayu.",
@@ -1263,11 +1233,11 @@
     "id": "H51",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jati Cina",
-      "Kayu Secang",
-      "Kayu Manis",
-      "Daun Kemangi",
-      "Batang Lidah Buaya"
+      "Kayu Manis (Cinnamomum burmannii Folium)",
+      "Kayu Secang (Caesalpinia sappan Cortex)",
+      "Kayu Manis (Cinnamomum verum Cortex)",
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Kayu Manis (Cinnamomum burmannii Rhizoma)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Kayu Manis. Termasuk dalam kelompok Simplisia Batang/Kayu.",
@@ -1278,11 +1248,11 @@
     "id": "H52",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sirih",
-      "Daun Jati Cina",
-      "Daun Sirih Cina",
-      "Kayu Manis",
-      "Batang Lidah Buaya"
+      "Batang Sereh/Serai (Cymbopogon citratus Cortex)",
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Kayu Manis (Cinnamomum burmannii Folium)",
+      "Kayu Manis (Cinnamomum verum Cortex)",
+      "Kayu Manis (Cinnamomum burmannii Rhizoma)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Kayu Manis. Termasuk dalam kelompok Simplisia Batang/Kayu.",
@@ -1293,11 +1263,11 @@
     "id": "H53",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kayu Secang",
-      "Jahe Merah",
-      "Daun Stevia",
-      "Batang Sereh/Serai",
-      "Daun Jati Cina"
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Batang Sereh/Serai (Cymbopogon citratus Lignum)",
+      "Kayu Manis (Cinnamomum burmannii Lignum)",
+      "Kayu Secang (Caesalpinia sappan Cortex)",
+      "Kayu Secang (Caesalpinia sappan Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Kayu Secang. Termasuk dalam kelompok Simplisia Batang/Kayu.",
@@ -1308,11 +1278,11 @@
     "id": "H54",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Temulawak",
-      "Batang Sereh/Serai",
-      "Kayu Secang",
-      "Laos/Galangal",
-      "Daun Kemangi"
+      "Kayu Manis (Cinnamomum burmannii Lignum)",
+      "Kayu Secang (Caesalpinia sappan Folium)",
+      "Kayu Secang (Caesalpinia sappan Lignum)",
+      "Kayu Manis (Cinnamomum verum Lignum)",
+      "Batang Sereh/Serai (Cymbopogon citratus Lignum)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Kayu Secang. Termasuk dalam kelompok Simplisia Batang/Kayu.",
@@ -1323,11 +1293,11 @@
     "id": "H55",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Meniran",
-      "Daun Binahong",
-      "Akar Wangi",
-      "Daun Jambu",
-      "Daun Sirih"
+      "Jahe Merah (Zingiber officinale var. rubrum Radix)",
+      "Kunyit (Curcuma longa Radix)",
+      "Akar Wangi (Vetiveria zizanioides Radix)",
+      "Pasak Bumi (Eurycoma longifolia Radix)",
+      "Temulawak (Curcuma xanthorrhiza Radix)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Akar Wangi. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1338,11 +1308,11 @@
     "id": "H56",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Temulawak",
-      "Daun Mint",
-      "Kunyit Putih",
-      "Daun Sirsak",
-      "Jahe Merah"
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Fructus)",
+      "Rimpang Kencur (Kaempferia galanga Rhizoma)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Folium)",
+      "Rimpang Laos/Galangal (Alpinia galanga Rhizoma)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Jahe Merah. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1353,11 +1323,11 @@
     "id": "H57",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Pandan",
-      "Daun Kumis Kucing",
-      "Daun Binahong",
-      "Batang Lidah Buaya",
-      "Jahe Merah"
+      "Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Folium)",
+      "Rimpang Laos/Galangal (Alpinia galanga Rhizoma)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Fructus)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Jahe Merah. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1368,11 +1338,11 @@
     "id": "H58",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Batang Lidah Buaya",
-      "Daun Kelor",
-      "Jahe Merah",
-      "Temulawak",
-      "Kunyit"
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Folium)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Fructus)",
+      "Rimpang Kencur (Kaempferia galanga Rhizoma)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Jahe Merah. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1383,11 +1353,11 @@
     "id": "H59",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Jahe Putih",
-      "Daun Sirih",
-      "Daun Kelor",
-      "Daun Jati Cina",
-      "Daun Kemangi"
+      "Rimpang Jahe Emprit (Zingiber officinale var. amarum Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Rimpang Jahe Emprit (Zingiber officinale var. amarum Folium)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Jahe Putih. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1395,44 +1365,14 @@
     "img": "3_Akar_Umbi_Rimpang/Jahe_putih/Jahe putih 1.jpg"
   },
   {
-    "id": "H60",
-    "question": "Sediaan obat herbal apakah ini?",
-    "options": [
-      "Daun Sirih",
-      "Daun Sambiloto",
-      "Kencur",
-      "Kunyit",
-      "Jahe Merah"
-    ],
-    "correct": 2,
-    "explanation": "Gambar ini menunjukkan Kencur. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
-    "category": "Identifikasi Obat Herbal",
-    "img": "3_Akar_Umbi_Rimpang/Kencur/Kencur 1.jpeg"
-  },
-  {
-    "id": "H61",
-    "question": "Sediaan obat herbal apakah ini?",
-    "options": [
-      "Daun Sirsak",
-      "Daun Jati Belanda",
-      "Kencur",
-      "Batang Lidah Buaya",
-      "Kayu Manis"
-    ],
-    "correct": 2,
-    "explanation": "Gambar ini menunjukkan Kencur. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
-    "category": "Identifikasi Obat Herbal",
-    "img": "3_Akar_Umbi_Rimpang/Kencur/Kencur 2.jpeg"
-  },
-  {
     "id": "H62",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Binahong",
-      "Kunyit",
-      "Temulawak",
-      "Daun Mint",
-      "Daun Kemangi"
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Folium)",
+      "Rimpang Kunyit Putih (Curcuma zedoaria Rhizoma)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Kunyit. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1443,11 +1383,11 @@
     "id": "H63",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Kelor",
-      "Laos/Galangal",
-      "Kunyit",
-      "Daun Jambu",
-      "Daun Kemangi"
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Rimpang Kunyit Putih (Curcuma zedoaria Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Folium)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Kunyit. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1458,11 +1398,11 @@
     "id": "H64",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kayu Manis",
-      "Buah Jambu",
-      "Jahe Putih",
-      "Kunyit Putih",
-      "Daun Kemangi"
+      "Rimpang Kunyit Putih (Curcuma zedoaria Folium)",
+      "Rimpang Kencur (Kaempferia galanga Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Rimpang Kunyit Putih (Curcuma zedoaria Rhizoma)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Kunyit Putih. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1473,11 +1413,11 @@
     "id": "H65",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kencur",
-      "Laos/Galangal",
-      "Jahe Merah",
-      "Daun Sambiloto",
-      "Daun Mint"
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Rimpang Laos/Galangal (Alpinia galanga Rhizoma)",
+      "Rimpang Laos/Galangal (Alpinia galanga Folium)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Rhizoma)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Laos/Galangal. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1488,11 +1428,11 @@
     "id": "H66",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Jahe Putih",
-      "Buah Jambu",
-      "Daun Stevia",
-      "Temulawak",
-      "Kayu Manis"
+      "Rimpang Kunyit Putih (Curcuma zedoaria Rhizoma)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Folium)",
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Rhizoma)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Temulawak. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1503,11 +1443,11 @@
     "id": "H67",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Kunyit Putih",
-      "Daun Kelor",
-      "Daun Kumis Kucing",
-      "Laos/Galangal",
-      "Temulawak"
+      "Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Rimpang Laos/Galangal (Alpinia galanga Rhizoma)",
+      "Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Folium)",
+      "Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Temulawak. Termasuk dalam kelompok Simplisia Akar/Umbi/Rimpang.",
@@ -1518,11 +1458,11 @@
     "id": "H68",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Buah Jambu",
-      "Kayu Manis",
-      "Buah Mahkota Dewa",
-      "Bunga Rosella",
-      "Daun Jati Cina"
+      "Buah Jambu Biji (Psidium guajava Fructus)",
+      "Buah Jambu Biji (Psidium guajava Rhizoma)",
+      "Buah Jarak (Jatropha curcas Fructus)",
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Buah Jambu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1533,11 +1473,11 @@
     "id": "H69",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Buah Jambu",
-      "Daun Jati Cina",
-      "Daun Binahong",
-      "Kayu Secang",
-      "Daun Stevia"
+      "Buah Jambu Biji (Psidium guajava Fructus)",
+      "Buah Jambu Biji (Psidium guajava Rhizoma)",
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)",
+      "Buah Jarak (Jatropha curcas Fructus)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Buah Jambu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1548,11 +1488,11 @@
     "id": "H70",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jambu",
-      "Daun Katuk",
-      "Daun Sirih",
-      "Daun Sirih Cina",
-      "Buah Jarak"
+      "Buah Jambu Biji (Psidium guajava Fructus)",
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Jarak (Jatropha curcas Folium)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)",
+      "Buah Jarak (Jatropha curcas Fructus)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Buah Jarak. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1563,11 +1503,11 @@
     "id": "H71",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Buah Mahkota Dewa",
-      "Daun Sambiloto",
-      "Daun Sirih",
-      "Daun Kemangi",
-      "Bunga Lawang"
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Rhizoma)",
+      "Buah Jambu Biji (Psidium guajava Fructus)",
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Buah Mahkota Dewa. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1575,59 +1515,14 @@
     "img": "4_Bunga_Buah/Buah_mahkota_dewa/Mahkotadewa 1.jpg"
   },
   {
-    "id": "H72",
-    "question": "Sediaan obat herbal apakah ini?",
-    "options": [
-      "Daun Jambu",
-      "Cengkeh",
-      "Buah Jarak",
-      "Buah Mengkudu",
-      "Daun Mint"
-    ],
-    "correct": 3,
-    "explanation": "Gambar ini menunjukkan Buah Mengkudu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
-    "category": "Identifikasi Obat Herbal",
-    "img": "4_Bunga_Buah/Buah_mengkudu/Mengkudu_pace 1.jpeg"
-  },
-  {
-    "id": "H73",
-    "question": "Sediaan obat herbal apakah ini?",
-    "options": [
-      "Buah Mengkudu",
-      "Buah Jarak",
-      "Daun Sirih Cina",
-      "Daun Jarak",
-      "Daun Mint"
-    ],
-    "correct": 0,
-    "explanation": "Gambar ini menunjukkan Buah Mengkudu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
-    "category": "Identifikasi Obat Herbal",
-    "img": "4_Bunga_Buah/Buah_mengkudu/Mengkudu_pace 2.jpeg"
-  },
-  {
-    "id": "H74",
-    "question": "Sediaan obat herbal apakah ini?",
-    "options": [
-      "Daun Kumis Kucing",
-      "Kayu Secang",
-      "Batang Sereh/Serai",
-      "Bunga Rosella",
-      "Buah Mengkudu"
-    ],
-    "correct": 4,
-    "explanation": "Gambar ini menunjukkan Buah Mengkudu. Termasuk dalam kelompok Simplisia Bunga/Buah.",
-    "category": "Identifikasi Obat Herbal",
-    "img": "4_Bunga_Buah/Buah_mengkudu/Mengkudu_pace 3.jpeg"
-  },
-  {
     "id": "H75",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Kumis Kucing",
-      "Buah Pala",
-      "Buah Mahkota Dewa",
-      "Batang Sereh/Serai",
-      "Bunga Rosella"
+      "Buah Pala (Myristica fragrans Folium)",
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Jarak (Jatropha curcas Fructus)",
+      "Buah Pala (Myristica fragrans Rhizoma)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Buah Pala. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1638,11 +1533,11 @@
     "id": "H76",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Pandan",
-      "Buah Mahkota Dewa",
-      "Daun Sambiloto",
-      "Buah Pala",
-      "Batang Sereh/Serai"
+      "Buah Pala (Myristica fragrans Folium)",
+      "Buah Pala (Myristica fragrans Rhizoma)",
+      "Buah Jarak (Jatropha curcas Fructus)",
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Jambu Biji (Psidium guajava Fructus)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Buah Pala. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1653,11 +1548,11 @@
     "id": "H77",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Jati Cina",
-      "Bunga Lawang",
-      "Buah Mengkudu",
-      "Kayu Manis",
-      "Daun Mint"
+      "Bunga Lawang (Illicium verum Fructus)",
+      "Bunga Lawang (Illicium verum Flos)",
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Flos)",
+      "Bunga Lawang (Illicium verum Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Bunga Lawang. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1668,11 +1563,11 @@
     "id": "H78",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Bunga Lawang",
-      "Daun Mint",
-      "Daun Pandan",
-      "Buah Jarak",
-      "Buah Mahkota Dewa"
+      "Bunga Lawang (Illicium verum Flos)",
+      "Bunga Lawang (Illicium verum Folium)",
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Lawang (Illicium verum Fructus)",
+      "Bunga Rosella (Hibiscus sabdariffa Flos)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Bunga Lawang. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1683,11 +1578,11 @@
     "id": "H79",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sambiloto",
-      "Daun Mint",
-      "Bunga Rosella",
-      "Daun Kumis Kucing",
-      "Daun Jarak"
+      "Bunga Rosella (Hibiscus sabdariffa Fructus)",
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Flos)",
+      "Bunga Lawang (Illicium verum Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Folium)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Bunga Rosella. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1698,11 +1593,11 @@
     "id": "H80",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Cengkeh",
-      "Bunga Rosella",
-      "Daun Sambiloto",
-      "Daun Sirih",
-      "Daun Jarak"
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Flos)",
+      "Bunga Cengkeh (Syzygium aromaticum Flos)",
+      "Bunga Lawang (Illicium verum Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Fructus)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Bunga Rosella. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1713,11 +1608,11 @@
     "id": "H81",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Bunga Rosella",
-      "Daun Binahong",
-      "Daun Jati Cina",
-      "Buah Pala",
-      "Daun Sambiloto"
+      "Bunga Rosella (Hibiscus sabdariffa Flos)",
+      "Bunga Cengkeh (Syzygium aromaticum Flos)",
+      "Bunga Lawang (Illicium verum Flos)",
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Folium)"
     ],
     "correct": 0,
     "explanation": "Gambar ini menunjukkan Bunga Rosella. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1728,11 +1623,11 @@
     "id": "H82",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Kelor",
-      "Daun Jarak",
-      "Kayu Secang",
-      "Daun Sirsak",
-      "Cengkeh"
+      "Bunga Lawang (Illicium verum Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Flos)",
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Cengkeh (Syzygium aromaticum Folium)",
+      "Bunga Cengkeh (Syzygium aromaticum Flos)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Cengkeh. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1743,11 +1638,11 @@
     "id": "H83",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Buah Jambu",
-      "Cengkeh",
-      "Daun Kelor",
-      "Daun Pandan",
-      "Daun Mint"
+      "Bunga Cengkeh (Syzygium aromaticum Fructus)",
+      "Bunga Cengkeh (Syzygium aromaticum Flos)",
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Flos)",
+      "Bunga Cengkeh (Syzygium aromaticum Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Cengkeh. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1758,11 +1653,11 @@
     "id": "H84",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Buah Mahkota Dewa",
-      "Daun Meniran",
-      "Bunga Rosella",
-      "Jeruk Nipis",
-      "Daun Kumis Kucing"
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Jeruk Nipis (Citrus aurantifolia Folium)",
+      "Buah Jambu Biji (Psidium guajava Fructus)",
+      "Buah Jeruk Nipis (Citrus aurantifolia Fructus)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Jeruk Nipis. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1773,11 +1668,11 @@
     "id": "H85",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Buah Pala",
-      "Jeruk Nipis",
-      "Kayu Secang",
-      "Daun Jati Belanda",
-      "Kayu Manis"
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Jeruk Nipis (Citrus aurantifolia Fructus)",
+      "Buah Jambu Biji (Psidium guajava Fructus)",
+      "Buah Jeruk Nipis (Citrus aurantifolia Folium)",
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Jeruk Nipis. Termasuk dalam kelompok Simplisia Bunga/Buah.",
@@ -1788,11 +1683,11 @@
     "id": "H86",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Akar Wangi",
-      "Asam Jawa",
-      "Daun Jambu",
-      "Daun Katuk",
-      "Daun Jati Belanda"
+      "Kapulaga (Elettaria cardamomum Fructus)",
+      "Asam Jawa (Tamarindus indica Fructus)",
+      "Bawang Putih (Allium sativum Fructus)",
+      "Cabai Jawa (Piper retrofractum Fructus)",
+      "Asam Jawa (Tamarindus indica Folium)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Asam Jawa. Termasuk dalam kelompok Simplisia Biji/Rempah.",
@@ -1803,11 +1698,11 @@
     "id": "H87",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Kumis Kucing",
-      "Kayu Manis",
-      "Bawang Lanang/Tunggal",
-      "Daun Pandan",
-      "Daun Sirsak"
+      "Bawang Tunggal/Lanang (Allium sativum var. solo Folium)",
+      "Bawang Putih (Allium sativum Bulbus)",
+      "Bawang Tunggal/Lanang (Allium sativum var. solo Bulbus)",
+      "Bawang Merah (Allium cepa Bulbus)",
+      "Kapulaga (Elettaria cardamomum Bulbus)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Bawang Lanang/Tunggal. Termasuk dalam kelompok Simplisia Biji/Rempah.",
@@ -1818,11 +1713,11 @@
     "id": "H88",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sambiloto",
-      "Batang Sereh/Serai",
-      "Daun Sirih",
-      "Daun Mint",
-      "Bawang Merah"
+      "Kapulaga (Elettaria cardamomum Bulbus)",
+      "Bawang Tunggal/Lanang (Allium sativum var. solo Bulbus)",
+      "Bawang Merah (Allium cepa Folium)",
+      "Bawang Putih (Allium sativum Bulbus)",
+      "Bawang Merah (Allium cepa Bulbus)"
     ],
     "correct": 4,
     "explanation": "Gambar ini menunjukkan Bawang Merah. Termasuk dalam kelompok Simplisia Biji/Rempah.",
@@ -1833,11 +1728,11 @@
     "id": "H89",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sirih Cina",
-      "Kayu Manis",
-      "Daun Pandan",
-      "Bawang Putih",
-      "Daun Jati Belanda"
+      "Kapulaga (Elettaria cardamomum Bulbus)",
+      "Bawang Tunggal/Lanang (Allium sativum var. solo Bulbus)",
+      "Bawang Putih (Allium sativum Rhizoma)",
+      "Bawang Putih (Allium sativum Bulbus)",
+      "Bawang Merah (Allium cepa Bulbus)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Bawang Putih. Termasuk dalam kelompok Simplisia Biji/Rempah.",
@@ -1848,11 +1743,11 @@
     "id": "H90",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Akar Wangi",
-      "Kapulaga",
-      "Cabai Jawa",
-      "Daun Jarak",
-      "Bawang Putih"
+      "Kapulaga (Elettaria cardamomum Fructus)",
+      "Cabai Jawa (Piper retrofractum Rhizoma)",
+      "Cabai Jawa (Piper retrofractum Fructus)",
+      "Cabai Jawa (Piper retrofractum Folium)",
+      "Asam Jawa (Tamarindus indica Fructus)"
     ],
     "correct": 2,
     "explanation": "Gambar ini menunjukkan Cabai Jawa. Termasuk dalam kelompok Simplisia Biji/Rempah.",
@@ -1863,11 +1758,11 @@
     "id": "H91",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Stevia",
-      "Daun Pandan",
-      "Cabai Jawa",
-      "Kapulaga",
-      "Daun Jarak"
+      "Cabai Jawa (Piper retrofractum Fructus)",
+      "Bawang Putih (Allium sativum Fructus)",
+      "Kapulaga (Elettaria cardamomum Folium)",
+      "Kapulaga (Elettaria cardamomum Fructus)",
+      "Kapulaga (Elettaria cardamomum Rhizoma)"
     ],
     "correct": 3,
     "explanation": "Gambar ini menunjukkan Kapulaga. Termasuk dalam kelompok Simplisia Biji/Rempah.",
@@ -1878,15 +1773,690 @@
     "id": "H92",
     "question": "Sediaan obat herbal apakah ini?",
     "options": [
-      "Daun Sambiloto",
-      "Mentimun",
-      "Daun Binahong",
-      "Daun Sirsak",
-      "Daun Jati Cina"
+      "Buah Mahkota Dewa (Phaleria macrocarpa Fructus)",
+      "Buah Mentimun (Cucumis sativus Fructus)",
+      "Buah Mentimun (Cucumis sativus Folium)",
+      "Buah Pala (Myristica fragrans Fructus)",
+      "Buah Jambu Biji (Psidium guajava Fructus)"
     ],
     "correct": 1,
     "explanation": "Gambar ini menunjukkan Mentimun. Termasuk dalam kelompok Simplisia Biji/Rempah.",
     "category": "Identifikasi Obat Herbal",
     "img": "5_Biji_Rempah/Mentimun/WhatsApp Image 2026-06-22 at 5.36.12 PM.jpeg"
+  },
+  {
+    "id": "H93",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Bunga Telang (Clitoria ternatea Flos)",
+      "Bunga Rosella (Hibiscus sabdariffa Flos)",
+      "Bunga Cengkeh (Syzygium aromaticum Flos)",
+      "Bunga Lawang (Illicium verum Flos)",
+      "Bunga Telang (Clitoria ternatea Folium)"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Bunga Telang (Clitoria ternatea). Dikenal dengan warna ungu/biru cerah, termasuk kelompok Simplisia Bunga.",
+    "category": "Identifikasi Obat Herbal",
+    "img": null
+  },
+  {
+    "id": "H94",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kelor Kering (Moringa oleifera Folium)",
+      "Daun Sambiloto Kering (Andrographis paniculata Folium)",
+      "Daun Meniran Kering (Phyllanthus niruri Folium)",
+      "Daun Jati Cina Kering (Senna alexandrina Folium)",
+      "Daun Sambiloto Kering (Andrographis paniculata Rhizoma)"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Sambiloto Kering (Andrographis paniculata). Simplisia daun kering sambiloto berwarna hijau kecoklatan dengan tekstur kering dan rapuh.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "1_Daun/Daun_sambiloto/Daun sambiloto 1.jpeg"
+  },
+  {
+    "id": "H95",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Sambiloto Kering (Andrographis paniculata Folium)",
+      "Daun Stevia Kering (Stevia rebaudiana Folium)",
+      "Daun Kelor Kering (Moringa oleifera Folium)",
+      "Daun Meniran Kering (Phyllanthus niruri Folium)",
+      "Daun Kelor Kering (Moringa oleifera Fructus)"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Kelor Kering (Moringa oleifera). Daun kelor kering berbentuk bulat kecil majemuk, warna hijau kecoklatan saat dikeringkan.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "1_Daun/Daun_kelor/Daun kelor 1.jpeg"
+  },
+  {
+    "id": "H96",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Belanda Kering (Guazuma ulmifolia Folium)",
+      "Daun Meniran Kering (Phyllanthus niruri Folium)",
+      "Daun Sambiloto Kering (Andrographis paniculata Folium)",
+      "Daun Jati Cina Kering (Senna alexandrina Folium)",
+      "Daun Jati Cina Kering (Senna alexandrina Rhizoma)"
+    ],
+    "correct": 3,
+    "explanation": "Gambar ini menunjukkan Daun Jati Cina Kering (Senna alexandrina). Dikenal juga sebagai senna, simplisia daun kering dengan tepi daun bergerigi.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "1_Daun/Daun_jati_cina/Daun jati cina 1.jpeg"
+  },
+  {
+    "id": "H97",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Jati Cina Kering (Senna alexandrina Folium)",
+      "Daun Jati Belanda Kering (Guazuma ulmifolia Folium)",
+      "Daun Sirsak Kering (Annona muricata Folium)",
+      "Daun Jati Belanda Kering (Guazuma ulmifolia Fructus)",
+      "Daun Kelor Kering (Moringa oleifera Folium)"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Daun Jati Belanda Kering (Guazuma ulmifolia). Simplisia daun kering dengan permukaan agak kasar dan tepi bergerigi.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "1_Daun/Daun_Jati_Belanda/WhatsApp Image 2026-06-22 at 5.36.11 PM.jpeg"
+  },
+  {
+    "id": "H98",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Stevia Kering (Stevia rebaudiana Folium)",
+      "Daun Sambiloto Kering (Andrographis paniculata Folium)",
+      "Daun Meniran Kering (Phyllanthus niruri Folium)",
+      "Daun Stevia Kering (Stevia rebaudiana Rhizoma)",
+      "Daun Katuk Kering (Sauropus androgynus Folium)"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Daun Stevia Kering (Stevia rebaudiana). Simplisia daun kering stevia memiliki rasa manis alami, digunakan sebagai pemanis herbal.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "1_Daun/Daun_Stevia/Stevia.jpeg"
+  },
+  {
+    "id": "H99",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Daun Kelor Kering (Moringa oleifera Folium)",
+      "Daun Sambiloto Kering (Andrographis paniculata Folium)",
+      "Daun Meniran Kering (Phyllanthus niruri Folium)",
+      "Daun Meniran Kering (Phyllanthus niruri Fructus)",
+      "Daun Jati Cina Kering (Senna alexandrina Folium)"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Daun Meniran Kering (Phyllanthus niruri). Simplisia daun kering meniran memiliki ciri khas daun majemuk kecil tersusun dua baris.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "1_Daun/Daun_meniran/Daun meniran 1.jpeg"
+  },
+  {
+    "id": "H100",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Simplisia Buah Mahkota Dewa (Phaleria macrocarpa Fructus)",
+      "Simplisia Buah Jeruk Nipis (Citrus aurantifolia Fructus)",
+      "Simplisia Buah Pala (Myristica fragrans Fructus)",
+      "Simplisia Buah Jeruk Nipis (Citrus aurantifolia Folium)",
+      "Simplisia Buah Jambu Biji (Psidium guajava Fructus)"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Simplisia Buah Jeruk Nipis (Citrus aurantifolia). Dapat berupa irisan kering atau kulit buah yang dikeringkan.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "4_Bunga_Buah/Jeruk_nipis/69f7b932-3898-431f-a725-c871da96cc75.jpg"
+  },
+  {
+    "id": "H101",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Simplisia Buah Mahkota Dewa (Phaleria macrocarpa Fructus)",
+      "Simplisia Buah Jambu Biji (Psidium guajava Fructus)",
+      "Simplisia Buah Mahkota Dewa (Phaleria macrocarpa Folium)",
+      "Simplisia Buah Pala (Myristica fragrans Fructus)",
+      "Simplisia Buah Jarak (Jatropha curcas Fructus)"
+    ],
+    "correct": 0,
+    "explanation": "Gambar ini menunjukkan Simplisia Buah Mahkota Dewa (Phaleria macrocarpa). Simplisia berupa irisan atau potongan buah kering berwarna merah kecoklatan.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "4_Bunga_Buah/Buah_mahkota_dewa/Mahkotadewa 1.jpg"
+  },
+  {
+    "id": "H102",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Simplisia Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Simplisia Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Simplisia Rimpang Temulawak (Curcuma xanthorrhiza Folium)",
+      "Simplisia Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Simplisia Rimpang Laos (Alpinia galanga Rhizoma)"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Simplisia Rimpang Temulawak (Curcuma xanthorrhiza). Berupa irisan rimpang kering berwarna kuning-oranye kecoklatan.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "3_Akar_Umbi_Rimpang/Temulawak/temulawak.jpeg"
+  },
+  {
+    "id": "H103",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Simplisia Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Simplisia Rimpang Laos (Alpinia galanga Rhizoma)",
+      "Simplisia Rimpang Jahe (Zingiber officinale Rhizoma)",
+      "Simplisia Rimpang Jahe (Zingiber officinale Fructus)",
+      "Simplisia Rimpang Kunyit (Curcuma longa Rhizoma)"
+    ],
+    "correct": 2,
+    "explanation": "Gambar ini menunjukkan Simplisia Rimpang Jahe (Zingiber officinale). Berupa irisan rimpang kering berwarna kuning kecoklatan dengan aroma khas jahe.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "3_Akar_Umbi_Rimpang/Jahe_putih/Jahe putih 1.jpg"
+  },
+  {
+    "id": "H104",
+    "question": "Sediaan obat herbal apakah ini?",
+    "options": [
+      "Simplisia Rimpang Jahe Merah (Zingiber officinale var. rubrum Rhizoma)",
+      "Simplisia Rimpang Kunyit (Curcuma longa Rhizoma)",
+      "Simplisia Rimpang Temulawak (Curcuma xanthorrhiza Rhizoma)",
+      "Simplisia Rimpang Kunyit (Curcuma longa Folium)",
+      "Simplisia Rimpang Kunyit Putih (Curcuma zedoaria Rhizoma)"
+    ],
+    "correct": 1,
+    "explanation": "Gambar ini menunjukkan Simplisia Rimpang Kunyit (Curcuma longa). Berupa irisan rimpang kering berwarna kuning-oranye terang dengan aroma khas kunyit.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "3_Akar_Umbi_Rimpang/Kunyit/Kunyit 2.jpeg"
+  },
+  {
+    "id": "ZA1",
+    "question": "Zat aktif utama pada Sambiloto (Andrographis paniculata) yang bersifat hepatoprotektif dan imunomodulator adalah...",
+    "options": [
+      "Kurkumin",
+      "Andrografolid",
+      "Gingerol",
+      "Xantorhizol",
+      "Quersetin"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif utama sambiloto adalah andrografolid, yang memiliki aktivitas antiinflamasi, hepatoprotektif, imunomodulator, dan antipiretik.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA2",
+    "question": "Zat aktif utama pada Kunyit (Curcuma longa) yang memberikan warna kuning dan memiliki efek antiinflamasi adalah...",
+    "options": [
+      "Andrografolid",
+      "Gingerol",
+      "Kurkumin",
+      "Xantorhizol",
+      "Piperin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama kunyit adalah kurkumin, pigmen polifenol yang memberikan warna kuning dan memiliki efek antiinflamasi, antioksidan, dan antikanker.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA3",
+    "question": "Zat aktif utama pada Jahe (Zingiber officinale) yang memberikan rasa pedas dan efek antiemetik adalah...",
+    "options": [
+      "Kurkumin",
+      "Gingerol",
+      "Andrografolid",
+      "Xantorhizol",
+      "Eugenol"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif utama jahe adalah gingerol (dan turunannya shogaol saat dikeringkan), yang memberikan rasa pedas khas serta efek antiemetik, antiinflamasi, dan antioksidan.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA4",
+    "question": "Zat aktif utama pada Temulawak (Curcuma xanthorrhiza) yang bersifat hepatoprotektif dan kolagogum adalah...",
+    "options": [
+      "Kurkumin",
+      "Gingerol",
+      "Andrografolid",
+      "Xantorhizol",
+      "Brazilin"
+    ],
+    "correct": 3,
+    "explanation": "Zat aktif khas temulawak adalah xantorhizol, sesquiterpen yang bersifat hepatoprotektif, antibakteri, dan kolagogum (meningkatkan produksi empedu).",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA5",
+    "question": "Zat aktif utama pada Kayu Secang (Caesalpinia sappan) yang memberikan warna merah dan efek antiinflamasi adalah...",
+    "options": [
+      "Gingerol",
+      "Xantorhizol",
+      "Kurkumin",
+      "Brazilin",
+      "Eugenol"
+    ],
+    "correct": 3,
+    "explanation": "Zat aktif utama kayu secang adalah brazilin, senyawa homoisoflavonoid yang memberikan warna merah pada air rebusannya serta memiliki efek antiinflamasi dan antioksidan.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA6",
+    "question": "Zat aktif utama pada Bunga Cengkeh (Syzygium aromaticum) yang bersifat analgesik dan antiseptik adalah...",
+    "options": [
+      "Kurkumin",
+      "Brazilin",
+      "Eugenol",
+      "Gingerol",
+      "Andrografolid"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama cengkeh adalah eugenol, yang terdapat dalam minyak atsiri cengkeh. Eugenol memiliki efek analgesik, antiseptik, antifungal, dan digunakan dalam kedokteran gigi.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA7",
+    "question": "Zat aktif utama pada Daun Stevia (Stevia rebaudiana) yang memberikan rasa manis hingga 300 kali lebih manis dari sukrosa adalah...",
+    "options": [
+      "Gingerol",
+      "Steviosida",
+      "Kurkumin",
+      "Andrografolid",
+      "Piperin"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif utama stevia adalah steviosida, glikosida diterpen yang memberikan rasa manis sangat kuat tanpa kalori.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA8",
+    "question": "Zat aktif utama pada Kumis Kucing (Orthosiphon aristatus) yang bersifat diuretik adalah...",
+    "options": [
+      "Kurkumin",
+      "Eugenol",
+      "Sinensetin",
+      "Brazilin",
+      "Andrografolid"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama kumis kucing adalah sinensetin, flavon polimetoksi yang memiliki efek diuretik, antiinflamasi, dan antihipertensi.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA9",
+    "question": "Zat aktif utama pada Daun Sirih (Piper betle) yang bersifat antiseptik dalam minyak atsirinya adalah...",
+    "options": [
+      "Kurkumin",
+      "Karvakrol",
+      "Chavikol (Kavikol)",
+      "Gingerol",
+      "Xantorhizol"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama daun sirih adalah chavikol (kavikol) dan turunannya betlephenol dalam minyak atsiri, yang memberikan sifat antiseptik, antibakteri, dan antijamur kuat.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA10",
+    "question": "Zat aktif utama pada Meniran (Phyllanthus niruri) yang bersifat hepatoprotektif dan antivirus adalah...",
+    "options": [
+      "Andrografolid",
+      "Kurkumin",
+      "Phyllanthin",
+      "Gingerol",
+      "Brazilin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama meniran adalah phyllanthin dan hipofillanthin, lignan yang memiliki efek hepatoprotektif, antivirus (anti-HBV), dan imunomodulator.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA11",
+    "question": "Zat aktif utama pada Daun Kelor (Moringa oleifera) yang berperan sebagai antioksidan kuat adalah...",
+    "options": [
+      "Eugenol",
+      "Quersetin",
+      "Gingerol",
+      "Brazilin",
+      "Andrografolid"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif utama daun kelor adalah quersetin, flavonoid kuat yang memiliki aktivitas antioksidan, antiinflamasi, dan antidiabetik. Daun kelor juga kaya isothiocyanate.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA12",
+    "question": "Zat aktif utama pada Bawang Putih (Allium sativum) yang terbentuk saat bawang putih dihancurkan dan bersifat antimikroba adalah...",
+    "options": [
+      "Kurkumin",
+      "Gingerol",
+      "Allicin",
+      "Eugenol",
+      "Steviosida"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama bawang putih adalah allicin, senyawa organosulfur yang terbentuk dari alliin oleh enzim allinase saat bawang dihancurkan. Allicin bersifat antimikroba, antitrombotik, dan antihipertensi.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA13",
+    "question": "Zat aktif utama pada Daun Sirsak (Annona muricata) yang dikaji sebagai antikanker adalah...",
+    "options": [
+      "Kurkumin",
+      "Quersetin",
+      "Acetogenin",
+      "Andrografolid",
+      "Phyllanthin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama daun sirsak adalah annonaceous acetogenin (asetogenin), senyawa polyketide yang memiliki aktivitas sitotoksik terhadap sel kanker dan antiparasit.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA14",
+    "question": "Zat aktif utama pada Kayu Manis (Cinnamomum verum) yang memiliki efek antidiabetes dan antiinflamasi adalah...",
+    "options": [
+      "Gingerol",
+      "Eugenol",
+      "Cinnamaldehyde (Sinamalaldehid)",
+      "Brazilin",
+      "Quersetin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama kayu manis adalah cinnamaldehyde (sinamaldehid), aldehida aromatik dalam minyak atsiri yang memiliki efek antidiabetes, antimikroba, dan antiinflamasi.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA15",
+    "question": "Zat aktif utama pada Daun Salam (Syzygium polyanthum) yang bersifat antidiabetes dan antihipertensi adalah...",
+    "options": [
+      "Kurkumin",
+      "Eugenol",
+      "Andrografolid",
+      "Quersetin",
+      "Myricetin (Mirisetim)"
+    ],
+    "correct": 4,
+    "explanation": "Zat aktif utama daun salam adalah myricetin (mirisetim) dan quersetin, flavonoid yang memiliki aktivitas antidiabetes, antihipertensi, dan antioksidan.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA16",
+    "question": "Zat aktif utama pada Buah Mahkota Dewa (Phaleria macrocarpa) yang bersifat antiinflamasi adalah...",
+    "options": [
+      "Gingerol",
+      "Andrografolid",
+      "Phalerin",
+      "Brazilin",
+      "Eugenol"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama mahkota dewa adalah phalerin, senyawa flavonoid glikosida yang memiliki efek antiinflamasi, antioksidan, dan antitumor.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA17",
+    "question": "Zat aktif utama pada Rosella (Hibiscus sabdariffa) yang memberikan warna merah dan efek antihipertensi adalah...",
+    "options": [
+      "Kurkumin",
+      "Anthocyanin (Antosianin)",
+      "Gingerol",
+      "Quersetin",
+      "Brazilin"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif utama bunga rosella adalah antosianin, pigmen flavonoid yang memberikan warna merah cerah dan memiliki efek antihipertensi, antioksidan, dan diuretik ringan.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA18",
+    "question": "Zat aktif utama pada Bunga Telang (Clitoria ternatea) yang digunakan sebagai pewarna alami dan antioksidan adalah...",
+    "options": [
+      "Brazilin",
+      "Eugenol",
+      "Anthocyanin (Antosianin)",
+      "Kurkumin",
+      "Andrografolid"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama bunga telang adalah antosianin (termasuk ternatin), flavonoid yang memberikan warna biru/ungu cerah dan memiliki efek antioksidan, antiinflamasi, dan neuroprotektif.",
+    "category": "Zat Aktif Herbal",
+    "img": "Golongan obat/Bunga secang.jpg"
+  },
+  {
+    "id": "ZA19",
+    "question": "Zat aktif utama pada Jeruk Nipis (Citrus aurantifolia) yang bersifat antibakteri dan sebagai sumber vitamin C adalah...",
+    "options": [
+      "Gingerol",
+      "Quersetin",
+      "Asam Sitrat",
+      "Brazilin",
+      "Kurkumin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama jeruk nipis adalah asam sitrat dan vitamin C (asam askorbat), serta flavonoid hesperidin. Asam sitrat berperan sebagai antibakteri dan pengawet alami.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA20",
+    "question": "Zat aktif utama pada Daun Binahong (Anredera cordifolia) yang bersifat antiinflamasi dan penyembuhan luka adalah...",
+    "options": [
+      "Kurkumin",
+      "Andrografolid",
+      "Asam Oleanolat",
+      "Gingerol",
+      "Phyllanthin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama binahong adalah asam oleanolat (oleanolic acid) dan flavonoid, yang memiliki efek antiinflamasi, antibakteri, dan mempercepat penyembuhan luka.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA21",
+    "question": "Zat aktif utama pada Mengkudu (Morinda citrifolia) yang bersifat sebagai prekursor xeronine adalah...",
+    "options": [
+      "Quersetin",
+      "Proxeronine (Prokseromin)",
+      "Kurkumin",
+      "Gingerol",
+      "Andrografolid"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif utama mengkudu yang sering dikutip adalah proxeronine (prokseromin), prekursor senyawa xeronin. Mengkudu juga mengandung scopoletin yang antihipertensi.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA22",
+    "question": "Zat aktif utama pada Daun Pandan (Pandanus amaryllifolius) yang memberikan aroma khas dan bersifat antioksidan adalah...",
+    "options": [
+      "Eugenol",
+      "2-Acetyl-1-pyrroline (2-Asetil-1-pirolin)",
+      "Gingerol",
+      "Brazilin",
+      "Kurkumin"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif aroma khas pandan adalah 2-acetyl-1-pyrroline (2AP), senyawa yang juga memberi aroma pada beras wangi. Pandan juga mengandung alkaloid, saponin, dan tannin.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA23",
+    "question": "Zat aktif utama pada Daun Jambu Biji (Psidium guajava) yang bersifat antidiare adalah...",
+    "options": [
+      "Kurkumin",
+      "Gingerol",
+      "Quersetin",
+      "Andrografolid",
+      "Brazilin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama daun jambu biji adalah quersetin, flavonoid yang memiliki efek antidiare (menghambat motilitas usus), antioksidan, dan antibakteri terhadap Staphylococcus aureus.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA24",
+    "question": "Zat aktif utama pada Batang Serai/Sereh (Cymbopogon citratus) dalam minyak atsirinya yang bersifat antimikroba dan analgesik adalah...",
+    "options": [
+      "Eugenol",
+      "Gingerol",
+      "Sitral (Citral)",
+      "Kurkumin",
+      "Quersetin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama minyak atsiri serai adalah sitral (citral), campuran geranial dan neral yang memberikan aroma khas lemon dengan aktivitas antimikroba, antifungal, dan analgesik.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA25",
+    "question": "Zat aktif utama pada Katuk (Sauropus androgynus) yang dipercaya meningkatkan produksi ASI (laktagogum) adalah...",
+    "options": [
+      "Gingerol",
+      "Andrografolid",
+      "Papaverin",
+      "Quersetin",
+      "Kurkumin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama daun katuk yang berperan laktagogum adalah papaverine (papaverin) dan sterol, yang mempengaruhi hormon prolaktin sehingga meningkatkan produksi ASI.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA26",
+    "question": "Zat aktif utama pada Bunga Lawang (Illicium verum) yang juga menjadi bahan baku obat antivirus oseltamivir adalah...",
+    "options": [
+      "Eugenol",
+      "Kurkumin",
+      "Asam Shikimat (Shikimic acid)",
+      "Gingerol",
+      "Brazilin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama bunga lawang adalah asam shikimat (shikimic acid), senyawa yang digunakan sebagai bahan baku sintesis oseltamivir (Tamiflu).",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA27",
+    "question": "Zat aktif utama pada Kapulaga (Elettaria cardamomum) dalam minyak atsirinya yang bersifat karminatif adalah...",
+    "options": [
+      "Gingerol",
+      "1,8-Sineol (Cineole)",
+      "Kurkumin",
+      "Eugenol",
+      "Brazilin"
+    ],
+    "correct": 1,
+    "explanation": "Zat aktif utama minyak atsiri kapulaga adalah 1,8-sineol (eucalyptol/cineole), yang memberikan efek karminatif (mengurangi gas di usus), antiseptik, dan spasmolitik.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA28",
+    "question": "Zat aktif utama pada Buah Pala (Myristica fragrans) dalam minyak atsirinya adalah...",
+    "options": [
+      "Brazilin",
+      "Eugenol",
+      "Miristisin (Myristicin)",
+      "Gingerol",
+      "Kurkumin"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama minyak atsiri buah pala adalah miristisin (myristicin) dan elemicin, yang memiliki efek sedatif ringan, karminatif, dan antibakteri. Dalam dosis tinggi bersifat toksik.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA29",
+    "question": "Zat aktif utama pada Mentimun (Cucumis sativus) yang berperan sebagai antiinflamasi dan pelembab kulit adalah...",
+    "options": [
+      "Kurkumin",
+      "Gingerol",
+      "Cucurbitacin",
+      "Brazilin",
+      "Andrografolid"
+    ],
+    "correct": 2,
+    "explanation": "Zat aktif utama mentimun adalah cucurbitacin (kukurbitasin), triterpenoid yang memiliki efek antiinflamasi dan antitumor. Mentimun juga mengandung flavonoid dan silika yang baik untuk kulit.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "ZA30",
+    "question": "Zat aktif utama pada Bawang Tunggal/Lanang (Allium sativum var. solo) yang bersifat antihipertensi adalah...",
+    "options": [
+      "Gingerol",
+      "Eugenol",
+      "Quersetin",
+      "Allicin",
+      "Kurkumin"
+    ],
+    "correct": 3,
+    "explanation": "Sama seperti bawang putih biasa, bawang tunggal/lanang mengandung allicin sebagai zat aktif utama dengan konsentrasi yang dipercaya lebih tinggi. Allicin bersifat antihipertensi, antimikroba, dan antitrombotik.",
+    "category": "Zat Aktif Herbal",
+    "img": null
+  },
+  {
+    "id": "LG1",
+    "question": "Logo golongan obat herbal apakah yang ditampilkan pada gambar ini?",
+    "options": [
+      "Jamu",
+      "Obat Herbal Terstandar (OHT)",
+      "Fitofarmaka",
+      "Obat Keras",
+      "Obat Bebas"
+    ],
+    "correct": 0,
+    "explanation": "Logo Jamu berupa Gambar berupa ranting daun yang terletak di dalam sebuah lingkaran. Semuanya berwarna hijau di atas dasar putih. Jamu adalah obat herbal berbasis empiris/pengalaman turun-temurun tanpa uji klinik formal.",
+    "category": "Golongan Obat Herbal",
+    "img": "Golongan obat/JAMU.jpg"
+  },
+  {
+    "id": "LG2",
+    "question": "Logo golongan obat herbal apakah yang ditampilkan pada gambar ini?",
+    "options": [
+      "Fitofarmaka",
+      "Jamu",
+      "Obat Herbal Terstandar (OHT)",
+      "Obat Bebas Terbatas",
+      "Suplemen Kesehatan"
+    ],
+    "correct": 2,
+    "explanation": "Logo OHT (Obat Herbal Terstandar) berupa gambar tiga bintang berwarna kuning/hijau di dalam lingkaran.. OHT telah melalui uji praklinik pada hewan percobaan.",
+    "category": "Golongan Obat Herbal",
+    "img": "Golongan obat/OHT.jpg"
+  },
+  {
+    "id": "LG3",
+    "question": "Logo golongan obat herbal apakah yang ditampilkan pada gambar ini?",
+    "options": [
+      "Jamu",
+      "Obat Herbal Terstandar (OHT)",
+      "Suplemen Kesehatan",
+      "Fitofarmaka",
+      "Obat Keras"
+    ],
+    "correct": 3,
+    "explanation": "Logo Fitofarmaka berupa simbol mirip kepingan salju (atau kristal bunga es) berwarna kuning/hijau di bagian bawah lingkaran. Fitofarmaka telah melalui uji praklinik DAN uji klinik pada manusia, sehingga dapat diresepkan dokter.",
+    "category": "Golongan Obat Herbal",
+    "img": "Golongan obat/Fitofarmaka.jpg"
   }
 ]
