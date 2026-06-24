@@ -2459,4 +2459,88 @@
     "category": "Identifikasi Obat Herbal",
     "img": "Golongan obat/Fitofarmaka.jpg"
   }
+  {
+    "id": "Q1",
+    "question": "Termasuk dalam golongan apakah Buyung Upik (oleh PT. Industri Djamu Tjap Djago)?",
+    "options": [
+      "Obat Herbal Terstandar (OHT)",
+      "Fitofarmaka",
+      "Jamu",
+      "Obat Keras"
+    ],
+    "correct": 2,
+    "explanation": "Buyung Upik termasuk golongan Jamu, yaitu obat tradisional yang khasiatnya didasarkan pada pengalaman empiris atau turun-temurun.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "Golongan obat/Buyung Upik.jpeg"
+  },
+  {
+    "id": "Q2",
+    "question": "LELAP (oleh PT SOHO Industri Pharmasi) diklasifikasikan sebagai...",
+    "options": [
+      "Jamu",
+      "Obat Herbal Terstandar (OHT)",
+      "Fitofarmaka",
+      "Suplemen Makanan"
+    ],
+    "correct": 1,
+    "explanation": "LELAP tergolong Obat Herbal Terstandar (OHT) karena khasiat dan keamanannya telah dibuktikan melalui uji praklinik.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "Golongan obat/LELAP.jpeg"
+  },
+  {
+    "id": "Q3",
+    "question": "Tolak Angin (oleh PT Industri Jamu Dan Farmasi Sido Muncul, Tbk) merupakan produk dengan golongan?",
+    "options": [
+      "Jamu",
+      "Fitofarmaka",
+      "Obat Bebas Terbatas",
+      "Obat Herbal Terstandar (OHT)"
+    ],
+    "correct": 3,
+    "explanation": "Tolak Angin merupakan Obat Herbal Terstandar (OHT) yang telah melalui uji toksisitas subkronik dan khasiat secara praklinik.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "Golongan obat/Tolak Angin.jpeg"
+  },
+  {
+    "id": "Q4",
+    "question": "Tensi (oleh PT Industri Jamu Dan Farmasi Sido Muncul) termasuk ke dalam golongan obat...",
+    "options": [
+      "Obat Herbal Terstandar (OHT)",
+      "Jamu",
+      "Fitofarmaka",
+      "Obat Sintetis"
+    ],
+    "correct": 1,
+    "explanation": "Tensi memiliki logo ranting daun yang menandakannya sebagai Jamu yang digunakan secara tradisional.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "Golongan obat/Tensi.jpeg"
+  },
+  {
+    "id": "Q5",
+    "question": "Apakah golongan dari obat Diapet (oleh PT SOHO Industri Pharmasi)?",
+    "options": [
+      "Fitofarmaka",
+      "Jamu",
+      "Obat Herbal Terstandar (OHT)",
+      "Obat Bebas"
+    ],
+    "correct": 2,
+    "explanation": "Diapet adalah Obat Herbal Terstandar (OHT) yang telah terbukti secara praklinik berkhasiat untuk membantu mengurangi frekuensi buang air besar.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "Golongan obat/Diapet.jpeg"
+  },
+  {
+    "id": "Q6",
+    "question": "Diabetadex (oleh Dexa Medica) telah terbukti secara klinis, sehingga masuk ke dalam golongan...",
+    "options": [
+      "Jamu",
+      "Obat Herbal Terstandar (OHT)",
+      "Fitofarmaka",
+      "Obat Tradisional Impor"
+    ],
+    "correct": 2,
+    "explanation": "Diabetadex merupakan Fitofarmaka yang berarti khasiat dan keamanannya telah terbukti melalui uji praklinik dan uji klinik pada manusia.",
+    "category": "Identifikasi Obat Herbal",
+    "img": "Golongan obat/Diabetadex.jpeg"
+  }
 ]
